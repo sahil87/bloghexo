@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Sahil's (B-)log
 subtitle:
 description:
-author: John Doe
-language:
-timezone:
+author: Sahil Ahuja
+language: en
+timezone: Asia/Kolkata
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://sahil.cc
+root: /doc/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -68,4 +68,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:sahil87/blog.git
+  branch: gh-pages
