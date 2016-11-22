@@ -15,7 +15,10 @@ git push origin --delete branch_to_delete
 
 `git submodule update --init --recursive` populates it
 
+`git submodule status` lists existing submodules
+
 `git clone --recursive <project url>` To checkout along with submodules
+
 ### Tags
 ```
 npm version patch/minor/major #Changes packages.json and applies git tag
