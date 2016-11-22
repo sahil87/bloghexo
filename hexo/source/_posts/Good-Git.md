@@ -10,6 +10,12 @@ Most used (but yet unremembered git commands):
 git push origin --delete branch_to_delete
 ```
 
+### Submodules
+`git submodule add https://github.com/<user>/rock rock` adds a submodule in a repo
+
+`git submodule update --init --recursive` populates it
+
+`git clone --recursive <project url>` To checkout along with submodules
 ### Tags
 ```
 npm version patch/minor/major #Changes packages.json and applies git tag
