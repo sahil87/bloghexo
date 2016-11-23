@@ -3,4 +3,4 @@
 	url = git@github.com:tufu9441/maupassant-hexo.git
 [submodule "hexo/themes/even"]
 	path = hexo/themes/even
-	url = https://github.com/ahonn/hexo-theme-even
+	url = git@github.com:sahil87/hexo-theme-even.git
