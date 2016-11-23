@@ -64,6 +64,9 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: maupassant
+#plugins:
+#- hexo-generator-cname
+#- hexo-deployer-git
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
