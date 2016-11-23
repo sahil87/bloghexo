@@ -5,7 +5,7 @@ tags:
 ---
 HOW is login still a tough problem! It's been 5 years since I left coding professionally and still parts of this remain unresolved.
 
-During my search for a good encrytion system to store user secrets, I came across something very cool [JWT](https://jwt.io/introduction/) - reminds me of the RSA public/private key encription system - only modified to be much more user friendly for web/mobile development.
+During my search for a good encrytion system to store user secrets, I came across something very cool - [JWT](https://jwt.io/introduction/) - reminds me of the RSA public/private key encription system - only modified to be much more user friendly for web/mobile development.
  
 JWT creates a token that can be decrypted only by person having a secret key using which it was encrypted. As long the website stores JWT in it's cookie, the server can decrypt the cookie every time and trust the decrypted content. 
 
