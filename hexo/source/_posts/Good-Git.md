@@ -13,6 +13,8 @@ git push origin --delete branch_to_delete
 ### Submodules
 `git submodule add https://github.com/<user>/rock rock` adds a submodule in a repo
 
+`git submodule deinit rock` removes a submodule
+
 `git submodule update --init --recursive` populates it
 
 `git submodule status` lists existing submodules
