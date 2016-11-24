@@ -6,14 +6,16 @@ tags: [jwt, web]
 Login is still a tough problem! It's been 5 years since I left coding professionally and still parts of this remain unresolved.
 
 <!-- more -->
-###Hello JWT
+Hello JWT
+=========
 During my search for a good encrytion system to store user secrets, I came across something very cool - [JWT](https://jwt.io/introduction/) - reminds me of the RSA public/private key encription system - only modified to be much more user friendly for web/mobile development.
  
 JWT creates a token that can be decrypted only by person having a secret key using which it was encrypted. As long the website stores JWT in it's cookie, the server can decrypt the cookie every time and trust the decrypted content. 
 
 This allows us to store sensitive information like user id and user permissions in the cookie. This is a stateless authentication mechanism as the user state is never saved in server memory. The server's protected routes will check for a valid JWT in the Authorization header, and if it's present, the user will be allowed to access protected resources. As JWTs are self-contained, all the necessary information is there, reducing the need to query the database multiple times.
 
-###Structure of a JWT token
+Structure of a JWT token
+=======================
 JSON Web Tokens consist of three parts separated by dots (.), which are: Header, Payload, Signature
 
 **Header**: The header typically consists of two parts: the type of the token, which is JWT, and the hashing algorithm being used, such as HMAC SHA256 or RSA.
