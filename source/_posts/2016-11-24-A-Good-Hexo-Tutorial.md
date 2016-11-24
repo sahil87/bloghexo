@@ -12,6 +12,7 @@ Useful info:
 1. Use hexo-browsersync for live reload - was wondering how I didn't know about this earlier
 1. Use drafts for writing posts and then publish. `hexo new draft "postName"`, `hexo pusblish "postName"`
 1. Use `<!-- more -->` to show only the part above it listing pages and hide the rest in a "read more" button
+
 <!-- more -->
 ### Other resources
 * Markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
