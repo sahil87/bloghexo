@@ -75,3 +75,6 @@ deploy:
   type: git
   repo: git@github.com:sahil87/sahil87.github.io
   branch: master
+
+sitemap:
+  path: sitemap.xml
