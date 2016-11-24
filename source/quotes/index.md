@@ -12,4 +12,4 @@ date: 2016-11-24 13:21:15
 
 > The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination.
 
-― Frederick P. Brooks Jr., Mythical Man-Month, The: Essays on Software Engineering
+― Frederick P. Brooks Jr., Mythical Man-Month
