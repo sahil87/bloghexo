@@ -2,6 +2,7 @@
 title: 'JWT: JSON Web Token - Passing on the secret without letting the neighours know'
 date: 2016-11-23 16:43:52
 tags: [jwt, web]
+categories: guides
 ---
 Login is still a tough problem! It's been 5 years since I left coding professionally and still parts of this remain unresolved.
 

@@ -2,6 +2,7 @@
 title: A Good Hexo Tutorial
 date: 2016-11-24 11:24:14
 tags: hexo
+categories: reviews
 ---
 
 No I am not going to write a tutorial for everything under the sun if it already exists.
