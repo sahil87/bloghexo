@@ -1,11 +1,13 @@
 ---
 title: Issues while renewing Passport - the JS one
+date: 2016-11-25 05:24:39
 tags:
   - web
   - authentication
   - rant
   - express
-date: 2016-11-25 05:24:39
+categories: reivew
+author: Sahil Ahuja
 ---
 
 No, am not talking about my actual passport, which also needs to be renewed soon by the way. Am talking about PassportJS.
