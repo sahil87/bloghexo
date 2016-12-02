@@ -9,12 +9,9 @@ date: 2016-12-01 02:17:41
 Currently learning how to play a Violin and going through online [courses](https://www.class-central.com/u/247939).
 
 A coder turned banker turned coder <del>trying to climb up the ropes</del> almost there! 
-I am a freak, an atheist, a thinker, a problem sniffer, a workaholic, a music nerd, a free software advocate, 
-a bathroom singer, a photographer, a chess player, an idiot and alive.
+I am a freak, an atheist, a thinker, a problem sniffer, a workaholic, a music nerd, a free software advocate, a bathroom singer, a photographer, a chess player, an idiot and alive.
 
-I graduated from [NIT Trichy](http://www.nitt.edu/home/students/clubsnassocs/computing/delta/alumni/up208/), 
-did Masters in Business Administration from [IIM-C](https://www.iimcal.ac.in/about/campus-life/life-iimc/clubs-and-sigs/isg-internet-solutions-group) 
-with a knack for building systems from ground up.
+I graduated from [NIT Trichy](http://www.nitt.edu/home/students/clubsnassocs/computing/delta/alumni/up208/), did Masters in Business Administration from [IIM-C](https://www.iimcal.ac.in/about/campus-life/life-iimc/clubs-and-sigs/isg-internet-solutions-group) with a knack for building systems from ground up.
 
 ---
 
