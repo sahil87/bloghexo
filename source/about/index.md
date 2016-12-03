@@ -18,4 +18,3 @@ I graduated from [NIT Trichy](http://www.nitt.edu/home/students/clubsnassocs/com
 <center style="display: flex; justify-content: space-between; ">
 [{% fa stack-overflow 2x%}](http://stackoverflow.com/story/sahilahuja) [{% fa linkedin 2x%}](https://in.linkedin.com/in/ahujasahil) [{% fa github 2x%}](https://github.com/sahil87) [{% fa facebook 2x%}](https://www.facebook.com/ahujasahil) [{% fa twitter 2x%}](https://twitter.com/_sahilahuja) [{% fa flickr 2x%}](http://flickr.com/sahilahuja)
 </center>
-
