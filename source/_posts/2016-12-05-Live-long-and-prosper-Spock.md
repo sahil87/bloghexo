@@ -43,3 +43,8 @@ class Test_Factorial_Spock_Parameterized_Groovy extends Specification {
 And I was sold.
 
 > The needs of the many outweigh the needs of the few ― Spock, Star Trek II: The Wrath of Khan
+
+Good Spock Resourses:
+http://jakubdziworski.github.io/java/groovy/spock/2016/05/14/spock-cheatsheet.html
+http://codepipes.com/presentations/spock-vs-junit.pdf
+https://github.com/spockframework/spock
