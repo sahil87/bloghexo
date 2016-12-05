@@ -13,8 +13,11 @@ A [Rube Goldberg machine](https://en.wikipedia.org/wiki/Rube_Goldberg_machine) i
 My Convolution:
 ---------------
 To learn algorithms, I started a Coursera course, to run examples of which I needed a Java Project setup locally, in which I needed to input stuff, for which I needed a testing framework, hence I tried to find the best testing framework, and found out about [Spock](https://en.wikipedia.org/wiki/Spock_%28testing_framework%29) and also needed a project dependency manager like Maven/Ant/Gradle, and chose [Gradle](https://en.wikipedia.org/wiki/Gradle) as the dependency manager of choice, and learnt [Groovy](https://en.wikipedia.org/wiki/Groovy_%28programming_language%29) to be able to write Gradle [DSL](https://en.wikipedia.org/wiki/Domain-specific_language).
+<<<<<<< 9aaf8f89e87acf2efb5f11ff5bbdc03571e8788a
 
 For a moment I thought Rube Goldberg was sitting next to me. All I wanted was to learn Algorithms.
+=======
+>>>>>>> Rube Goldberg
 
 Gradle
 ======
