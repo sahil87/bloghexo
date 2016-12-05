@@ -9,7 +9,7 @@ date: 2016-12-01 02:17:41
 Hi! I am Sahil Ahuja, a coder turned banker turned coder <del>trying to climb up the ropes</del> almost there! 
 Known to be a freak, atheist, thinker, problem sniffer, workaholic, music nerd, free software advocate, bathroom singer, photographer, chess player, an idiot and alive.
 
-My tech interests include Dev Ops, Web Technologies and VR. Current toolkit is primarily Emacs, Atom, WebStorm, zsh, nodjs, ES6/JSX, Ansible and Jenkins. Want to add Android into the toolkit next.
+My tech interests include Dev Ops, Web Technologies and VR. Current toolkit is primarily Emacs, Atom, WebStorm, zsh, nodjs, ES6/JSX, Ansible and Jenkins. Want to add Android to the toolkit next.
 
 Learning how to play [Violin](https://en.wikipedia.org/wiki/Violin) and [Piano](https://en.wikipedia.org/wiki/Digital_piano) with [Sheet Music](https://en.wikipedia.org/wiki/Sheet_music), trying to improve my [Relative Pitch](https://en.wikipedia.org/wiki/Relative_pitch) and going through online [courses](https://www.class-central.com/u/247939).
 
