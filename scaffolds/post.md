@@ -1,7 +1,7 @@
 ---
 title: {{ title }}
-date: {{ date }}
-tags:
-categories: blog
 author: Sahil Ahuja
+date: {{ date }}
+categories: blog
+tags:
 ---
