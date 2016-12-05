@@ -13,3 +13,4 @@ Now the executable gradlew or gradlew.bat in the current folder will install Gra
 
 Gradle syntax: `gradle[w] taskName[s]`
 
+For help/options simply type: `gradle[w]`
