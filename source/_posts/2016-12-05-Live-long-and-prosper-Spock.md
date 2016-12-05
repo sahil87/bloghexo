@@ -5,7 +5,7 @@ categories: coding
 tags: java, testing, spock
 date: 2016-12-05 18:05:28
 ---
-[Spock](http://spockframework.org/) is the new kid in town in the [crowded](https://en.wikipedia.org/wiki/Unit_testing) world of java frameworks.
+[Spock](http://spockframework.org/) is the new kid in town in the [crowded](https://en.wikipedia.org/wiki/Unit_testing) world of testing frameworks.
 
 [Here](https://accu.org/index.php/journals/2203) is an article on Spock where the author tries to vent out years in frustration over JUnit in a very professionally demeanor.
 
