@@ -7,7 +7,7 @@ date: 2016-12-01 02:17:41
 > ― Frederick P. Brooks Jr., Mythical Man-Month
 
 Hi! I am Sahil Ahuja, a coder turned banker turned coder <del>trying to climb up the ropes</del> almost there! 
-I am a freak, an atheist, a thinker, a problem sniffer, a workaholic, a music nerd, a free software advocate, a bathroom singer, a photographer, a chess player, an idiot and alive.
+Known to be a freak, atheist, thinker, problem sniffer, workaholic, music nerd, free software advocate, bathroom singer, photographer, chess player, an idiot and alive.
 
 My tech interests include Dev Ops, Web Technologies and VR. Current toolkit is primarily Emacs, Atom, WebStorm, zsh, nodjs, ES6/JSX, Ansible and Jenkins. Want to add Android into the toolkit next.
 
