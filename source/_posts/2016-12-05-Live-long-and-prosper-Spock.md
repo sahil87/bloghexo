@@ -39,7 +39,7 @@ class Test_Factorial_Spock_Parameterized_Groovy extends Specification {
   }
 }
 ```
-
+![](/images/mr-spock.jpg)
 And I was sold.
 
 > The needs of the many outweigh the needs of the few ― Spock, Star Trek II: The Wrath of Khan
