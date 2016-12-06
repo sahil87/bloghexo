@@ -13,3 +13,9 @@ date: 2016-11-24 13:21:15
 > Evolution forged the entirety of sentient life on this planet using only one tool: the mistake.
 
 ― Robert Ford, Westworld
+
+{% youtube ANPsHKpti48 %}
+
+> If I'm curt with you, it's because time is a factor. I think fast, I talk fast, and I need you two guys to act fast if you want to get out of this. So pretty please, with sugar on top, clean the fucking car.
+
+― Winston Wolf, Pulp Fiction
