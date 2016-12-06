@@ -8,7 +8,7 @@ tags: [gradle, spock, java, testing, algorithms]
 
 A [Rube Goldberg machine](https://en.wikipedia.org/wiki/Rube_Goldberg_machine) is a contraption, invention, device, or apparatus that is deliberately over-engineered to perform a simple task in a complicated fashion, generally including a chain reaction.
 <!-- more -->
-![](/images/Rube_Goldberg_Self_Operating_Napkin.gif)
+![Self Operating Napkin](/images/Rube_Goldberg_Self_Operating_Napkin.gif)
 
 My Convolution:
 ---------------

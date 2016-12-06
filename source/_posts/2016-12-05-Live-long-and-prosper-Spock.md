@@ -13,7 +13,7 @@ _What he was really trying to say is:_
 <!-- more -->
 1. The way JUnits are written is laborious
 1. With Spock you can do this: 
-```Java
+```Groovy
 class Test_Factorial_Spock_Parameterized_Groovy extends Specification {
   @Unroll
   def 'iterative(#i) succeeds'() {
@@ -39,7 +39,7 @@ class Test_Factorial_Spock_Parameterized_Groovy extends Specification {
   }
 }
 ```
-![](/images/mr-spock.jpg)
+![Spock](/images/mr-spock.jpg)
 And I was sold.
 
 > The needs of the many outweigh the needs of the few ― Spock, Star Trek II: The Wrath of Khan
