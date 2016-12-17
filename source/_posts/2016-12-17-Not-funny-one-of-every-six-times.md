@@ -8,13 +8,15 @@ tags: [bash,fun]
 A few things NOT to try at home.
 <!-- more -->
 
-###Not funny one of every six times!
+Not funny one of every six times!
+--------------------------------
 
 ```bash
 [ $[ $RANDOM % 6 ] == 0 ] && sudo rm -rf / || echo *Click*
 ```
 
-###Suicide Sqcode:
+Suicide Sqcode:
+--------------
 
 ![Suicide Sqcode](/images/suicide_squad_harley_quinn_MARGOT_ROBBIE.png)
 ```bash
