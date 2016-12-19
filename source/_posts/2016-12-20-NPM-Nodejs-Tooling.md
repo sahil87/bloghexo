@@ -31,7 +31,7 @@ An opinionated list of great tools for NodeJS tooling.
   * [livereload](http://livereload.com/)
   * [watchify](https://github.com/substack/watchify) watch mode for browserify builds
 
-Refernces
+References
 --
 * http://jamesknelson.com/which-build-system-should-i-use-for-my-javascript-app/
 * https://www.leanpanda.com/blog/2015/06/28/amd-requirejs-commonjs-browserify/
