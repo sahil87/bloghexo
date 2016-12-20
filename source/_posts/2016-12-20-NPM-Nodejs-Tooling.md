@@ -8,10 +8,6 @@ tags: [node, tools, es6]
 An opinionated list of great tools for NodeJS tooling.
 <!-- more -->
 
-##### Compilers
-  * [Babel](https://babeljs.io/)
-  * [Webpack](https://webpack.github.io/), [Webpack2](https://webpack.js.org/) - Webpack is also does all of the below
-  
 ##### Module bundlers
   * [Browserify](http://browserify.org/), works well with [npm](https://www.npmjs.com/) packages
   * [RequireJS](http://requirejs.org/), works well with [bower](https://bower.io/) packages
@@ -19,7 +15,8 @@ An opinionated list of great tools for NodeJS tooling.
   
 ##### Task Runners
   * [Gulp 4.0](https://github.com/gulpjs/gulp/tree/4.0)
-
+  **Gulp - The swiss army knife of task runners**
+  ![Gulp - The swiss army knife of task runners](/images/swiss-army-knife-01.jpg "Gulp - The swiss army knife of task runners")
 ##### Process Monitors
   * [Nodemon](https://github.com/remy/nodemon/)
   * [Supervisor](https://github.com/Supervisor/supervisor)
@@ -30,6 +27,12 @@ An opinionated list of great tools for NodeJS tooling.
   * [Browsersync](https://github.com/Browsersync/browser-sync)
   * [livereload](http://livereload.com/)
   * [watchify](https://github.com/substack/watchify) watch mode for browserify builds
+
+##### Compilers
+  * [Babel](https://babeljs.io/)
+  * [Webpack](https://webpack.github.io/), [Webpack2](https://webpack.js.org/) - Webpack is also does all of the above. 
+  **Webpack - The swiss army knife of swiss army knives!**
+  ![Webpack - The swiss army knife of swiss army knives](/images/swiss-army-knife-02.jpg "Webpack - The swiss army knife of swiss army knives!")
 
 References
 --
