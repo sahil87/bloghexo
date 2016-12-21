@@ -31,7 +31,7 @@ An opinionated list of great tools for NodeJS tooling.
 
 ##### Compilers
   * [Babel](https://babeljs.io/)
-  * [Webpack](https://webpack.github.io/), [Webpack2](https://webpack.js.org/) - Webpack is also does all of the above.
+  * [Webpack](https://webpack.github.io/), [webpack2](https://webpack.js.org/) - also does all of the above.
   
   **Webpack - The swiss army knife of swiss army knives!**
   ![Webpack - The swiss army knife of swiss army knives](/images/swiss-army-knife-02.jpg "Webpack - The swiss army knife of swiss army knives!")
