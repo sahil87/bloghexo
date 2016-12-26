@@ -23,3 +23,7 @@ date: 2016-11-24 13:21:15
 > The more you know, the more you know you don’t know.
 
 ― Aristotle
+
+> Being a developer entails perpetual learning. It never stops. The field is ever evolving. New things to learn will continue to pop up.
+
+― Corey Slaven, [The hardest part of learning to code is also the funnest part](https://medium.freecodecamp.com/this-is-what-ive-gathered-after-a-year-of-teaching-myself-to-code-9e46bb60db9)
