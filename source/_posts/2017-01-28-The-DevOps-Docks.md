@@ -9,4 +9,4 @@ tags: [ansible]
 A cool way to vomit out all Ansible variables:
 https://coderwall.com/p/13lh6w/dump-all-variables
 
-![Ansible Vomit](/images/vomitcartoon.jpg)
+<!-- ![Ansible Vomit](/images/vomitcartoon.jpg) -->
