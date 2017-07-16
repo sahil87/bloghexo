@@ -90,3 +90,6 @@ feed:
   limit: 20
   hub:
   content:
+
+admin:
+  deployCommand: './hexo-deploy.sh'

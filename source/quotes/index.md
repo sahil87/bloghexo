@@ -1,7 +1,10 @@
----
-title: quotes
+title: Quotes
 date: 2016-11-24 13:21:15
 ---
+> What is originality? Undetected plagiarism
+
+― William Ralph Inge, from the book "Steal Like an Artist"
+
 > Documentation should always be written with the assumption that only the examples are read.
 
 ― [Prakhar Srivastav](http://prakhar.me/articles/the-domain-name-system/)
