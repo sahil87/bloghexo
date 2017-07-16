@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Sahil Ahuja's B-log
+title: Sahil's Journal
 subtitle: CC' me that pls
 description:
 author: Sahil Ahuja
@@ -63,10 +63,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-#theme: maupassant
+theme: maupassant
 #theme: even
 #theme: bootstrap-blog
-theme: prontera
+#theme: prontera
+#theme: Hacker
+#theme: artemis
+
 #plugins:
 #- hexo-generator-cname
 #- hexo-deployer-git
