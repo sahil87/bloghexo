@@ -17,6 +17,12 @@ Main documentation: https://hexo.io/docs/
 
 Configuration: https://hexo.io/docs/configuration.html
 
+### To use Hexo Admin
+```
+hexo server -d
+```
+Open [http://localhost:4000/admin/](http://localhost:4000/admin/)
+
 ### One Shot Commit/Deploy
 
 `gaa; gcm "adding changes"; gp; hexo g; hexo d; `
