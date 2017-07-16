@@ -1,6 +1,10 @@
 title: Quotes
 date: 2016-11-24 13:21:15
 ---
+> Don't worry about people stealing your ideas. If your ideas are any good, you'll have to ram them down people's throats.
+
+― Howard Aiken, from the book "Steal Like an Artist"
+
 > What is originality? Undetected plagiarism
 
 ― William Ralph Inge, from the book "Steal Like an Artist"
