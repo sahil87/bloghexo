@@ -16,8 +16,8 @@ We asked Sriram where we could go. He told us about a great place to shop - [Bri
 
 The next day, we went to a great place called [Marathalli](http://wikimapia.org/#lat=12.954626&amp;lon=77.6957953&amp;z=16&amp;l=0&amp;m=a&amp;v=2). It's a great place for shopping. I got 50% off on my Rebook shoes! And Anshu found the memory card he was searching for the whole day on M.G. the whole day but had found only duplicate, China made cards !
 
-[![Anshu and Sriram](http://sahilahuja.files.wordpress.com/2008/06/dsc09336.jpg?w=300)
-](http://sahilahuja.files.wordpress.com/2008/06/dsc09336.jpg)
+[![Anshu and Sriram](/images/dsc09336.jpg)
+](/images/dsc09336.jpg)
 
 Next Wednesday my mom is coming, and so now am making a list of places to take her to, and yes, all the above mentioned place are there in the list.
 

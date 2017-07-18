@@ -8,4 +8,4 @@ id: 34
 date: 2008-05-20 03:12:59
 ---
 
-Here's the farewell cake we gave our juniors. It    was   DELICIOUS.[![](http://sahilahuja.files.wordpress.com/2008/05/dsc08927.jpg?w=300)](http://sahilahuja.files.wordpress.com/2008/05/dsc08927.jpg)
+Here's the farewell cake we gave our juniors. It    was   DELICIOUS.[![](/images//dsc08927.jpg?w=300)](/images/dsc08927.jpg)

@@ -5,18 +5,13 @@ categories: blog
 tags:
   - dalal
   - delta
-  - doku
   - fedora
   - ldap
   - nfs
-  - oscilloscope
+  - pcbo
   - postfix
   - pragyan
-  - pure-ftpd
-  - servlets
   - ssl
-  - svn
-  - trac
 id: 26
 date: 2008-05-20 02:35:28
 ---

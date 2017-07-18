@@ -15,15 +15,15 @@ Now, before I say anything else about [Fedora 9](http://fedoraproject.org/), her
 
 Here's Gnome  in F9 :
 
-[![Gnome Preview](http://sahilahuja.files.wordpress.com/2008/05/screenshot.png?w=300)](http://sahilahuja.files.wordpress.com/2008/05/screenshot.png)
+[![Gnome Preview](/images/screenshot.png)](/images/screenshot.png)
 
 And here is [KDE 4](http://www.kde.org/) (finally !!):
 
-[![KDE 4 Preview](http://sahilahuja.files.wordpress.com/2008/05/snapshot2.png?w=300)](http://sahilahuja.files.wordpress.com/2008/05/snapshot2.png)
+[![KDE 4 Preview](/images/snapshot2.png)](/images/snapshot2.png)
 
 KDE 4 seems to be following the footsteps of some of its latest applications like [Basket](http://basket.kde.org/). The new start menu now acts like that of IPOD. And the inbuilt search as shown in the following video is simply amazing!. The whole desktop has been given a major revamp. And so has been the theme. The widgets on the desktop now act a bit like widgets on Vista.
 
-[youtube=http://www.youtube.com/watch?v=n2_BVgWMa1c]
+{% youtube n2_BVgWMa1c %}
 
 Among the key features, the feature that i think will prove to be indispensable later in making fedora more famous is the windows **[fedora live usb creator](http://lewk.org/blog/liveusb-creator-2.0.html).**
 

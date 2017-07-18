@@ -15,6 +15,6 @@ Here are a few pics and videos I took on the last day of college :
 
 Last night at octa:
 
-[youtube=http://www.youtube.com/v/z4wK0uOz05I]
+{% youtube z4wK0uOz05I %}
 
-[youtube=http://www.youtube.com/v/hUM17283rvw]
+{% youtube hUM17283rvw %}
