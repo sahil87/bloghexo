@@ -3,7 +3,7 @@ title: Adios College!!!
 author: Sahil Ahuja
 categories: blog
 tags:
-  - nitt farewell
+    - nitt
 id: 34
 date: 2008-05-20 03:12:59
 ---

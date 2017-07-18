@@ -3,7 +3,7 @@ title: Bangalore International Airport Shuttle service timings and route
 author: Sahil Ahuja
 categories: blog
 tags:
-  - Bengaluru
+  - bangalore
 id: 171
 date: 2010-01-25 01:48:06
 ---

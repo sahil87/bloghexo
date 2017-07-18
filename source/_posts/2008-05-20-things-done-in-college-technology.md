@@ -9,7 +9,6 @@ tags:
   - ldap
   - nfs
   - pcbo
-  - postfix
   - pragyan
   - ssl
 id: 26

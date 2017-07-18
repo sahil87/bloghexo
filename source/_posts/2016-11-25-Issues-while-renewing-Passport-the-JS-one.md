@@ -4,7 +4,7 @@ date: 2016-11-25 05:24:39
 tags:
   - web
   - authentication
-  - rant
+  - rants
   - express
 categories: review
 author: Sahil Ahuja
