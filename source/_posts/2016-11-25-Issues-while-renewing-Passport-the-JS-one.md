@@ -6,7 +6,7 @@ tags:
   - authentication
   - rants
   - express
-categories: review
+categories: reviews
 author: Sahil Ahuja
 ---
 

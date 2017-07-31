@@ -5,6 +5,7 @@ categories: blog
 id: 102
 date: 2009-10-22 14:47:13
 tags:
+  - httpd
 ---
 
 **Giving httpd access to other folders (apart from default SElinux allowed folders):**

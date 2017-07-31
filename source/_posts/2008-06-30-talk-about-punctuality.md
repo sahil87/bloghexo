@@ -5,6 +5,7 @@ categories: blog
 id: 71
 date: 2008-06-30 01:40:05
 tags:
+  - life
 ---
 
 This wednesday, working at Goldman Sachs, I got a call from Santa Fe. The guy asked me when I wanted him to bring my luggage to my house. I said Saturday (yesterday) around 10 am.

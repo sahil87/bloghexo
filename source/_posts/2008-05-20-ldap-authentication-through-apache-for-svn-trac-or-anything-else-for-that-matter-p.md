@@ -5,12 +5,9 @@ title: >-
 author: Sahil Ahuja
 categories: blog
 tags:
-  - apache
   - delta
-  - fedora
   - httpd
   - ldap
-  - pragyan
   - svn
   - trac
 id: 33
@@ -22,17 +19,18 @@ Apache can be used as an access method for things like svn, trac, and even a who
 Here is how it is done :
 
 **For SVN :**
-
-`&lt;VirtualHost *:80&gt;
+```
+<VirtualHost *:80>
 ServerName                          repos.nitt.edu
 DocumentRoot                        "/var/www/svn/DocumentRoot/"
 ErrorLog logs/repos.nitt.edu-error_log
-CustomLog logs/repos.nitt.edu-access_log combined`
+CustomLog logs/repos.nitt.edu-access_log combined
 
-&lt;Location /pragyan&gt;
+
+<Location /pragyan>
 DAV svn
 SVNPath /var/www/svn/pragyan
-&lt;LimitExcept OPTIONS REPORTGET&gt;
+<LimitExcept OPTIONS REPORTGET>
 AuthType Basic
 AuthBasicProvider ldap
 AuthzLDAPAuthoritative off
@@ -41,12 +39,14 @@ AuthLDAPURL ldap://localhost:389/ou=Pragyan,dc=www,dc=nitt,dc=edu?cn?sub?(object
 AuthLDAPGroupAttribute contact
 require valid-user
 require ldap-group listName=coding,ou=Groups,ou=Pragyan,dc=www,dc=nitt,dc=edu
-&lt;/LimitExcept&gt;
-&lt;/Location&gt;
-&lt;/VirtualHost&gt;
+</LimitExcept>
+</Location>
+</VirtualHost>
+```
 
 **For trac :**
-`&lt;Location "/trac/delta/login"&gt;
+```
+<Location "/trac/delta/login">
 AuthType Basic
 AuthName "Delta Trac LDAP Authentication"
 AuthBasicProvider ldap
@@ -55,4 +55,5 @@ AuthLDAPURL ldap://delta.nitt.edu:389/ou=Webteam,dc=delta,dc=nitt.edu?uid?sub?(o
 AuthLDAPGroupAttribute memberUid
 require valid-user
 require ldap-group cn=webteam,ou=Groups,ou=Webteam,dc=delta,dc=nitt.edu
-&lt;/Location&gt;`
+</Location>
+```

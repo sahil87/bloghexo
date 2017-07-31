@@ -1,7 +1,7 @@
 ---
 title: College Nostalgia...
 author: Sahil Ahuja
-categories: blog
+categories: nitt
 tags:
   - nitt
   - octa

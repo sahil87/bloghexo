@@ -1,9 +1,21 @@
 [submodule "themes/maupassant"]
 	path = themes/maupassant
-	url = git@github.com:tufu9441/maupassant-hexo.git
+	url = git@github.com:sahil87/maupassant-hexo.git
 [submodule "themes/even"]
 	path = themes/even
 	url = git@github.com:sahil87/hexo-theme-even.git
 [submodule "themes/bootstrap-blog"]
 	path = themes/bootstrap-blog
 	url = git@github.com:sahil87/hexo-theme-bootstrap-blog.git
+[submodule "themes/Hacker"]
+	path = themes/Hacker
+	url = git@github.com:sahil87/Hacker.git
+[submodule "themes/Hacker"]
+	path = themes/Hacker
+	url = git@github.com:sahil87/Hacker.git
+[submodule "themes/artemis"]
+    path = themes/artemis
+    url = git@github.com:sahil87/hexo-theme-artemis.git
+[submodule "themes/prontera"]
+    path = themes/prontera
+    url = git@github.com:sahil87/hexo-theme-prontera.git

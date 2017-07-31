@@ -5,6 +5,7 @@ categories: blog
 id: 73
 date: 2008-10-29 11:38:57
 tags:
+  - god
 ---
 
 So long since I have written anything. And there's so much I want to write.

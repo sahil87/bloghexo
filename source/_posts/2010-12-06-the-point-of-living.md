@@ -5,6 +5,7 @@ categories: blog
 id: 179
 date: 2010-12-06 16:41:23
 tags:
+  - life
 ---
 
 You have been warned. These are random thoughts.

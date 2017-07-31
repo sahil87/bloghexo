@@ -1,7 +1,7 @@
 ---
 title: Things done in college - technology
 author: Sahil Ahuja
-categories: blog
+categories: nitt
 tags:
   - dalal
   - delta

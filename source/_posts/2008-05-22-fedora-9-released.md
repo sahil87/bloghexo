@@ -5,6 +5,7 @@ categories: blog
 id: 53
 date: 2008-05-22 16:50:28
 tags:
+  - fedora
 ---
 
 And it rocks!!
