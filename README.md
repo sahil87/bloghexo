@@ -13,10 +13,13 @@ $ cd <folder>
 $ npm install
 ```
 
-#####To checkout already existing submodules in an existing project:
+##### To checkout already existing submodules in an existing project:
 ```
 git submodule update --init --recursive
 ```
+
+##### To add a submodule (hexo theme)
+`git submodule add https://github.com/theme-next/hexo-theme-next themes/next` 
 
 **Main documentation:** https://hexo.io/docs/
 

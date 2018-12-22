@@ -19,3 +19,6 @@
 [submodule "themes/prontera"]
     path = themes/prontera
     url = git@github.com:sahil87/hexo-theme-prontera.git
+[submodule "themes/next"]
+	path = themes/next
+	url = https://github.com/theme-next/hexo-theme-next

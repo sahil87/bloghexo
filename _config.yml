@@ -4,7 +4,7 @@
 
 # Site
 title: Sahil's Journal
-subtitle: CC' me that pls
+subtitle: Keeping It Simple & Stupid
 description:
 author: Sahil Ahuja
 language: en
@@ -63,7 +63,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: maupassant
+theme: next
+#theme: maupassant
 #theme: even
 #theme: bootstrap-blog
 #theme: prontera
