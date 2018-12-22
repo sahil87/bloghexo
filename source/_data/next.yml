@@ -62,13 +62,14 @@ site_state: true
   # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/sahil87 || github
-  E-Mail: mailto:sahilahuja@gmail.com || envelope
+  StackOverflow: http://stackoverflow.com/story/sahilahuja || stack-overflow
+  Twitter: https://twitter.com/_sahilahuja || twitter
+  LinkedIn: https://linkedin.com/in/ahujasahil || linkedin
+  Medium: https://medium.com/@sahilahuja || medium
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
-  Twitter: https://twitter.com/_sahilahuja || twitter
   FB Page: https://www.facebook.com/ahujasahil || facebook
   #VK Group: https://vk.com/yourname || vk
-  StackOverflow: http://stackoverflow.com/story/sahilahuja || stack-overflow
   #YouTube: https://youtube.com/yourname || youtube
   #Instagram: https://instagram.com/yourname || instagram
 #Skype: skype:yourname?call|chat || skype
@@ -88,9 +89,10 @@ social_icons:
 links_icon: link
 links_title: Links
 links_layout: block
-  #links_layout: inline
-  #links:
-#Title: http://example.com
+#links_layout: inline
+links:
+  GMETRI: http://gmetri.com
+  Medium: https://medium.com/@sahilahuja
 
 # Sidebar Avatar
 avatar:
