@@ -1,24 +1,27 @@
 ---
 title: Not funny one of every six times
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 date: 2016-12-17 14:27:54
 tags: [bash,fun]
+featured: "suicide_squad_harley_quinn_MARGOT_ROBBIE.png"
+featuredalt: "Suicide Squad Harley Quinn Margot Robbie"
+featuredpath: "date"
 ---
-A few things NOT to try at home.
-<!-- more -->
 
+A few things NOT to try at home.
+<!--more-->
 Not funny one of every six times!
 --------------------------------
 
 ```bash
-[ $[ $RANDOM % 6 ] == 0 ] && sudo rm -rf / || echo *Click*
+[ $[ $RANDOM % 6 ] = 0 ] && sudo rm -rf / || echo "*Click*"
 ```
 
 Suicide Sqcode:
 --------------
+![Suicide Sqcode](/images/2016/suicide_squad_harley_quinn_MARGOT_ROBBIE.jpg)
 
-![Suicide Sqcode](/images/suicide_squad_harley_quinn_MARGOT_ROBBIE.png)
 ```bash
 :(){ :|:& };:
 ```

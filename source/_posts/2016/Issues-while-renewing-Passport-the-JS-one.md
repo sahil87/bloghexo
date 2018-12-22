@@ -6,13 +6,12 @@ tags:
   - authentication
   - rants
   - express
-categories: reviews
+categories: [review]
 author: Sahil Ahuja
 ---
 
 No, am not talking about my actual passport, which also needs to be renewed soon by the way. Am talking about PassportJS.
-
-<!-- more -->
+<!--more-->
 
 Continuing my rant over the not so good login infrastructure avaible - the following were the gotchas we faced while implementing passportjs:
 

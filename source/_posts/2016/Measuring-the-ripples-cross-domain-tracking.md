@@ -1,7 +1,7 @@
 ---
 title: Measuring the ripples - cross domain tracking
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 date: 2016-12-25 14:24:56
 tags: [analytics]
 ---

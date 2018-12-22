@@ -1,16 +1,19 @@
 ---
 title: Live long and prosper - Spock
 author: Sahil Ahuja
-categories: coding
+categories: [guide]
 tags: [java, testing, spock]
 date: 2016-12-05 18:05:28
+featured: "mr-spock.jpg"
+featuredalt: "Mr. Spock"
+featuredpath: "date"
 ---
 [Spock](http://spockframework.org/) is the new kid in town in the [crowded](https://en.wikipedia.org/wiki/Unit_testing) world of testing frameworks.
 
 [Here](https://accu.org/index.php/journals/2203) is an article on Spock where the author tries to vent out years in frustration over JUnit in a very professionally demeanor.
 
 _What he was really trying to say is:_
-<!-- more -->
+<!--more-->
 1. The way JUnits are written is laborious
 1. With Spock you can do this: 
 ```Groovy
@@ -39,7 +42,8 @@ class Test_Factorial_Spock_Parameterized_Groovy extends Specification {
   }
 }
 ```
-![Spock](/images/mr-spock.jpg)
+![Mr. Spock](/images/2016/mr-spock.jpg)
+
 And I was sold.
 
 > The needs of the many outweigh the needs of the few ― Spock, Star Trek II: The Wrath of Khan

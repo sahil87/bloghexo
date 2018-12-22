@@ -30,7 +30,7 @@ menu:
   categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
-  sitemap: /sitemap.xml || sitemap
+  #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
 
 # Enable/Disable menu icons / item badges.
@@ -131,8 +131,8 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-#  display: post
-  display: always
+  display: post
+#  display: always
   #display: hide
   #display: remove
 
@@ -168,3 +168,16 @@ disqus:
 google_analytics: UA-87967706-1
 
 fancybox: true
+
+add_this_id: ra-5c1e8cedfc514058
+
+footer:
+# Specify the date when the site was setup.
+# If not defined, current year will be used.
+  since: 2008
+  powered:
+    # Hexo link (Powered by Hexo).
+    enable: false
+  theme:
+    # Theme & scheme info link (Theme - NexT.scheme).
+    enable: false

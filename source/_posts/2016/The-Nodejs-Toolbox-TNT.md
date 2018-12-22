@@ -1,13 +1,15 @@
 ---
 title: The Nodejs Toolbox (TNT)
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 date: 2016-12-20 01:48:40
 tags: [node, tools, es6]
+featured: "swiss-army-knife-01.jpg"
+featuredalt: "Swiss Army Knife 01"
+featuredpath: "date"
 ---
 An opinionated list of great tools for NodeJS tooling.
-<!-- more -->
-
+<!--more-->
 ##### Module bundlers
   * [Browserify](http://browserify.org/), works well with [npm](https://www.npmjs.com/) packages
   * [RequireJS](http://requirejs.org/), works well with [bower](https://bower.io/) packages
@@ -17,7 +19,7 @@ An opinionated list of great tools for NodeJS tooling.
   * [Gulp 4.0](https://github.com/gulpjs/gulp/tree/4.0)
 
   **Gulp - The swiss army knife of task runners**
-  ![Gulp - The swiss army knife of task runners](/images/swiss-army-knife-01.jpg "Gulp - The swiss army knife of task runners")
+  ![Gulp - The swiss army knife of task runners](/images/2016/swiss-army-knife-01.jpg)
 ##### Process Monitors
   * [Nodemon](https://github.com/remy/nodemon/)
   * [Supervisor](https://github.com/Supervisor/supervisor)
@@ -34,7 +36,7 @@ An opinionated list of great tools for NodeJS tooling.
   * [Webpack](https://webpack.github.io/), [webpack2](https://webpack.js.org/) - also does all of the above.
   
   **Webpack - The swiss army knife of swiss army knives!**
-  ![Webpack - The swiss army knife of swiss army knives](/images/swiss-army-knife-02.jpg "Webpack - The swiss army knife of swiss army knives!")
+  ![Webpack - The swiss army knife of swiss army knives!](/images/2016/swiss-army-knife-02.jpg)
 
 References
 --

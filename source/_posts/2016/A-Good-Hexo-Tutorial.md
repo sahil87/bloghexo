@@ -1,8 +1,8 @@
 ---
 title: A Good Hexo Tutorial
 date: 2016-11-24 11:24:14
-tags: hexo
-categories: reviews
+tags: [hexo]
+categories: [review]
 author: Sahil Ahuja
 ---
 
@@ -15,6 +15,6 @@ Useful info:
 1. Use drafts for writing posts and then publish. `hexo new draft "postName"`, `hexo pusblish "postName"`
 1. Use `<!-- more -->` to show only the part above it listing pages and hide the rest in a "read more" button
 
-<!-- more -->
+<!--more-->
 ### Other resources
 * Markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet

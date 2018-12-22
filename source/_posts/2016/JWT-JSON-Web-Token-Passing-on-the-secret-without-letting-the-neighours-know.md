@@ -2,12 +2,12 @@
 title: 'JWT: JSON Web Token - Passing on the secret without letting the neighours know'
 date: 2016-11-23 16:43:52
 tags: [jwt, web]
-categories: guides
+categories: [guide]
 author: Sahil Ahuja
 ---
 Login is still a tough problem! It's been 5 years since I left coding professionally and still parts of this remain unresolved.
 
-<!-- more -->
+<!--more-->
 Hello JWT
 =========
 During my search for a good encrytion system to store user secrets, I came across something very cool - [JWT](https://jwt.io/introduction/) - reminds me of the RSA public/private key encription system - only modified to be much more user friendly for web/mobile development.
