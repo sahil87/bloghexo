@@ -13,19 +13,19 @@ $ cd <folder>
 $ npm install
 ```
 
-##### To checkout already existing submodules in an existing project:
+### Initializing this Repo
+
+* Clone repo
+* Checkout already existing submodules in this project:
 ```
 git submodule update --init --recursive
 ```
+* Add optional plugins for theme-next (out of source-control)
+```
+git clone https://github.com/theme-next/theme-next-fancybox3 theme/next/source/lib/fancybox
+```
 
-##### To add a submodule (hexo theme)
-`git submodule add https://github.com/theme-next/hexo-theme-next themes/next` 
-
-**Main documentation:** https://hexo.io/docs/
-
-**Configuration:** https://hexo.io/docs/configuration.html
-
-### To use Hexo Admin
+##### Use Hexo Admin
 ```
 hexo server -d
 ```
@@ -68,3 +68,10 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/deployment.html)
+
+### To add a submodule (hexo theme)
+`git submodule add https://github.com/theme-next/hexo-theme-next themes/next` 
+
+**Main documentation:** https://hexo.io/docs/
+
+**Configuration:** https://hexo.io/docs/configuration.html
