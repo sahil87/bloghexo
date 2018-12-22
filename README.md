@@ -22,7 +22,7 @@ git submodule update --init --recursive
 ```
 * Add optional plugins for theme-next (out of source-control)
 ```
-git clone https://github.com/theme-next/theme-next-fancybox3 theme/next/source/lib/fancybox
+git clone https://github.com/theme-next/theme-next-fancybox3 themes/next/source/lib/fancybox
 ```
 
 ##### Use Hexo Admin
