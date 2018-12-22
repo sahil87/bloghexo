@@ -3,19 +3,24 @@ For documentation: https://help.github.com/articles/using-jekyll-as-a-static-sit
 
 ### To work with hexo
 
-```npm install -g hexo-cli```
+```yarn global add hexo-cli```
 
 After that: https://hexo.io/docs/setup.html
 
 ```
-$ hexo init <folder>
+$ hexo init <folder> #For new projects
 $ cd <folder>
 $ npm install
 ```
 
-Main documentation: https://hexo.io/docs/
+#####To checkout already existing submodules in an existing project:
+```
+git submodule update --init --recursive
+```
 
-Configuration: https://hexo.io/docs/configuration.html
+**Main documentation:** https://hexo.io/docs/
+
+**Configuration:** https://hexo.io/docs/configuration.html
 
 ### To use Hexo Admin
 ```

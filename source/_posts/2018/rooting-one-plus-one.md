@@ -5,7 +5,6 @@ author: Sahil Ahuja
 tags: [ "root", "android" ]
 categories: [ "blog", "guide" ]
 ---
-# How to root OnePlus One
 
 1. Install TWRP recovery [steps](https://forums.oneplus.net/threads/oneplus-one-how-to-unlock-bootloader-install-custom-recovery-and-root.64487/)
 1. Install Lineage OS 14.1 based on Android 7 and GApps using the "Install" option on TWRP via sd card. [Link](https://forum.xda-developers.com/oneplus-one/orig-development/official-lineageos-14-1-oneplus-one-t3543489) to the guide.
