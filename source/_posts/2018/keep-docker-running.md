@@ -4,7 +4,7 @@ date: 2018-11-29T14:44:58+05:30
 draft: true
 author: Sahil Ahuja
 tags: [ "kubernetes", "docker", "docker-compose" ]
-categories: [ "blog", "guide" ]
+categories: [ "guide" ]
 description: To keep dockers running
 ---
 

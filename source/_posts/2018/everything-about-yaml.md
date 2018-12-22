@@ -3,7 +3,7 @@ title: "Everything About Yaml And Invision"
 date: 2018-02-14T17:52:49+05:30
 author: Sahil Ahuja
 tags: [ "yaml", "ubuntu" ]
-categories: [ "blog", "guide" ]
+categories: [ "guide" ]
 ---
 Everything there is to know about yaml condensed in a great blog post [here](https://www.mirantis.com/blog/introduction-to-yaml-creating-a-kubernetes-deployment/)
 

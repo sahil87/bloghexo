@@ -3,7 +3,7 @@ title: "Rooting One Plus One"
 date: 2018-02-15T14:33:39+05:30
 author: Sahil Ahuja
 tags: [ "root", "android" ]
-categories: [ "blog", "guide" ]
+categories: [ "guide" ]
 ---
 
 1. Install TWRP recovery [steps](https://forums.oneplus.net/threads/oneplus-one-how-to-unlock-bootloader-install-custom-recovery-and-root.64487/)
