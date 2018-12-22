@@ -20,7 +20,7 @@ Not funny one of every six times!
 
 Suicide Sqcode:
 --------------
-![Suicide Sqcode](/images/2016/suicide_squad_harley_quinn_MARGOT_ROBBIE.jpg)
+![Suicide Sqcode](/images/2016/suicide_squad_harley_quinn_MARGOT_ROBBIE.png)
 
 ```bash
 :(){ :|:& };:

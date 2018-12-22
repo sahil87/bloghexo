@@ -5,7 +5,7 @@ draft: true
 author: Sahil Ahuja
 tags: [ "kubernetes", "docker", "docker-compose" ]
 categories: [ "guide" ]
-description: To keep dockers running
+description: Commands to keep dockers running
 ---
 
 Many we times we want dockers to keep running when started, either through `docker-compose` or `kubernetes`
