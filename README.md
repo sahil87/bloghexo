@@ -15,7 +15,7 @@ $ npm install
 #### Existing Project
 
 * Clone repo
-* `yarn global add hexo-cli`
+* `yarn, yarn global add hexo-cli`
 * Checkout already existing submodules in this project:
   ```
   git submodule update --init --recursive
@@ -24,7 +24,7 @@ $ npm install
   ```
   git clone https://github.com/theme-next/theme-next-fancybox3 themes/next/source/lib/fancybox
   ```
-* Use Hexo Admin: `hexo server -d`, Open http://localhost:4000/admin/
+* Use Hexo Admin: `hexo server`, Open http://localhost:4000/admin/
 * One Shot Commit/Deploy `./hexo-deploy.sh`
 
 ### Shortcuts

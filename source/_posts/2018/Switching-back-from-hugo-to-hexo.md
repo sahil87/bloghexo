@@ -7,10 +7,11 @@ categories:
   - blog
 date: 2018-12-23 02:20:00
 ---
-Been relly since I blogged anything. Primary reasons being that blogging and searching through the existing blog has become tougher than needed. I suspect that was because of Hugo and the theme I has selected in it.
 
-Spent today shifting all my blog back from hugo to hexo. Paid a heavy price for not sticking as closely to Markdown spec as possible.
+I has been really long since I blogged anything. The primary reason was that blogging and searching through the existing blog had become tougher than required. Probably because of Hugo and the theme that I selected in it.
 
-It was a close call between [Hexo Next](https://github.com/theme-next/hexo-theme-next) and [Icarus](https://github.com/ppoffice/hexo-theme-icarus) theme. Finally went with Hexo Next for the ease of use.
+Spent today shifting sahil.cc back from hugo to hexo. Ended up paying a heavy price for not sticking as closely as possible to the Markdown spec (and depending hugo/hexo specific plugins instead).
+
+For Hexo theme, it was a close call between [Hexo Next](https://github.com/theme-next/hexo-theme-next) and [Icarus](https://github.com/ppoffice/hexo-theme-icarus). Finally Hexo Next won out for its ease of use.
 
 Now live at https://www.sahil.cc
