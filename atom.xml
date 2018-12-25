@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Sahil&#39;s Journal</title>
+  
+  <subtitle>Keeping It Simple &amp; Stupid</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://www.sahil.cc/"/>
+  <updated>2018-12-25T10:52:01.429Z</updated>
+  <id>https://www.sahil.cc/</id>
+  
+  <author>
+    <name>Sahil Ahuja</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Switching (back) from hugo to hexo</title>
+    <link href="https://www.sahil.cc/post/2018/Switching-back-from-hugo-to-hexo/"/>
+    <id>https://www.sahil.cc/post/2018/Switching-back-from-hugo-to-hexo/</id>
+    <published>2018-12-22T20:50:00.000Z</published>
+    <updated>2018-12-25T10:52:01.429Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;I has been really long since I blogged anything. The primary reason was that blogging and searching through the existing blog had become 
+      
+    
+    </summary>
+    
+      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+    
+    
+      <category term="hexo" scheme="https://www.sahil.cc/tags/hexo/"/>
+    
+      <category term="hugo" scheme="https://www.sahil.cc/tags/hugo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Rooting One Plus One</title>
+    <link href="https://www.sahil.cc/post/2018/rooting-one-plus-one/"/>
+    <id>https://www.sahil.cc/post/2018/rooting-one-plus-one/</id>
+    <published>2018-02-15T03:33:39.000Z</published>
+    <updated>2018-12-25T10:11:09.971Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;Install TWRP recovery &lt;a href=&quot;https://forums.oneplus.net/threads/oneplus-one-how-to-unlock-bootloader-install-custom-recovery-and-
+      
+    
+    </summary>
+    
+      <category term="guide" scheme="https://www.sahil.cc/categories/guide/"/>
+    
+    
+      <category term="root" scheme="https://www.sahil.cc/tags/root/"/>
+    
+      <category term="android" scheme="https://www.sahil.cc/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Everything About Yaml And Invision</title>
+    <link href="https://www.sahil.cc/post/2018/everything-about-yaml/"/>
+    <id>https://www.sahil.cc/post/2018/everything-about-yaml/</id>
+    <published>2018-02-14T06:52:49.000Z</published>
+    <updated>2018-12-25T10:11:09.971Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Everything there is to know about yaml condensed in a great blog post &lt;a href=&quot;https://www.mirantis.com/blog/introduction-to-yaml-creatin
+      
+    
+    </summary>
+    
+      <category term="guide" scheme="https://www.sahil.cc/categories/guide/"/>
+    
+    
+      <category term="ubuntu" scheme="https://www.sahil.cc/tags/ubuntu/"/>
+    
+      <category term="yaml" scheme="https://www.sahil.cc/tags/yaml/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Does SELinux save you against rm -rf ?</title>
+    <link href="https://www.sahil.cc/post/2018/Does-SELinux-save-you-against-rm-rf/"/>
+    <id>https://www.sahil.cc/post/2018/Does-SELinux-save-you-against-rm-rf/</id>
+    <published>2018-02-12T02:18:46.000Z</published>
+    <updated>2018-12-25T10:48:37.398Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Always wondered if there is way in SELinux to disable the &lt;a href=&quot;/post/2016/Not-funny-one-of-every-six-times&quot;&gt;deadly&lt;/a&gt; &lt;code&gt;rm -rf&lt;/
+      
+    
+    </summary>
+    
+      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+    
+    
+      <category term="fedora" scheme="https://www.sahil.cc/tags/fedora/"/>
+    
+      <category term="selinux" scheme="https://www.sahil.cc/tags/selinux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>UEFI Secureboot Hell</title>
+    <link href="https://www.sahil.cc/post/2017/UEFI-secureboot-hell/"/>
+    <id>https://www.sahil.cc/post/2017/UEFI-secureboot-hell/</id>
+    <published>2017-12-06T12:54:46.000Z</published>
+    <updated>2018-12-25T10:11:09.967Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Spent a really long time yesterday trying to figure out how to edit UEFI boot options after my old Intel Core 2 Duo desktop refused to bo
+      
+    
+    </summary>
+    
+      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+    
+    
+      <category term="linuxmint" scheme="https://www.sahil.cc/tags/linuxmint/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Reacting With a Vengence</title>
+    <link href="https://www.sahil.cc/post/2017/reacting-with-a-vengence/"/>
+    <id>https://www.sahil.cc/post/2017/reacting-with-a-vengence/</id>
+    <published>2017-11-07T02:23:33.000Z</published>
+    <updated>2018-12-25T10:11:09.967Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Things being worked on&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+    
+    
+      <category term="react" scheme="https://www.sahil.cc/tags/react/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Tooling Update</title>
+    <link href="https://www.sahil.cc/post/2017/tooling-update/"/>
+    <id>https://www.sahil.cc/post/2017/tooling-update/</id>
+    <published>2017-10-24T09:56:23.000Z</published>
+    <updated>2018-12-25T10:11:09.967Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;While going over different technologies that could be used to augment the existing stack in &lt;a href=&quot;http://gmetri.com&quot; target=&quot;_blank&quot; r
+      
+    
+    </summary>
+    
+      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+    
+    
+      <category term="react" scheme="https://www.sahil.cc/tags/react/"/>
+    
+      <category term="devops" scheme="https://www.sahil.cc/tags/devops/"/>
+    
+      <category term="mobx" scheme="https://www.sahil.cc/tags/mobx/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Researching PNG Resizing</title>
+    <link href="https://www.sahil.cc/post/2017/researching-png-resizing/"/>
+    <id>https://www.sahil.cc/post/2017/researching-png-resizing/</id>
+    <published>2017-10-24T02:33:58.000Z</published>
+    <updated>2018-12-25T10:11:09.967Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;A lot has been written about resizing PNGs and the comparison of different tools that allow it.&lt;/p&gt;
+&lt;p&gt;The following are my top picks:&lt;br&gt;
+    
+    </summary>
+    
+      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+    
+    
+      <category term="png" scheme="https://www.sahil.cc/tags/png/"/>
+    
+      <category term="todo" scheme="https://www.sahil.cc/tags/todo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Switching From Hexo to Hugo</title>
+    <link href="https://www.sahil.cc/post/2017/switching-from-hexo-to-hugo/"/>
+    <id>https://www.sahil.cc/post/2017/switching-from-hexo-to-hugo/</id>
+    <published>2017-10-18T12:56:14.000Z</published>
+    <updated>2018-12-25T10:11:09.967Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;My first &lt;em&gt;hugo&lt;/em&gt; blog post.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+    
+    
+      <category term="test" scheme="https://www.sahil.cc/tags/test/"/>
+    
+      <category term="hugo" scheme="https://www.sahil.cc/tags/hugo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Typing Unicode Characters in Ubuntu</title>
+    <link href="https://www.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/"/>
+    <id>https://www.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/</id>
+    <published>2017-08-27T12:20:16.000Z</published>
+    <updated>2018-12-25T10:11:09.967Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Ever since I decided that &lt;code&gt;&amp;#96;&lt;/code&gt; was the best means to toggle Yakuake (which has been my lifeline for an integral part of the way I work for a long time now), typing &lt;code&gt;&amp;#96;&lt;/code&gt; whenever I needed it has been hell.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="guide" scheme="https://www.sahil.cc/categories/guide/"/>
+    
+    
+      <category term="ubuntu" scheme="https://www.sahil.cc/tags/ubuntu/"/>
+    
+      <category term="webstorm" scheme="https://www.sahil.cc/tags/webstorm/"/>
+    
+      <category term="unicode" scheme="https://www.sahil.cc/tags/unicode/"/>
+    
+      <category term="shortcuts" scheme="https://www.sahil.cc/tags/shortcuts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Tracking hostname in Google Analytics</title>
+    <link href="https://www.sahil.cc/post/2017/Tracking-hostname-in-Google-Analytics/"/>
+    <id>https://www.sahil.cc/post/2017/Tracking-hostname-in-Google-Analytics/</id>
+    <published>2017-03-28T05:30:26.000Z</published>
+    <updated>2018-12-25T10:11:09.967Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Google analytics gives us the ability to modify tracked through filters. The following screenshot tells us how to modify Request URI and add the hostname to it:&lt;br&gt;
+    
+    </summary>
+    
+      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+    
+    
+      <category term="google" scheme="https://www.sahil.cc/tags/google/"/>
+    
+      <category term="analytics" scheme="https://www.sahil.cc/tags/analytics/"/>
+    
+      <category term="tracking" scheme="https://www.sahil.cc/tags/tracking/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>To Frame or Not to Frame</title>
+    <link href="https://www.sahil.cc/post/2017/To-Frame-or-Not-to-Frame/"/>
+    <id>https://www.sahil.cc/post/2017/To-Frame-or-Not-to-Frame/</id>
+    <published>2017-03-01T15:16:28.000Z</published>
+    <updated>2018-12-25T10:11:09.967Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;I recently had to decide whether to create our widget as an &lt;code&gt;&amp;lt;iframe&amp;gt;&lt;/code&gt; or a &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; tag. The followi
+      
+    
+    </summary>
+    
+      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+    
+    
+      <category term="js" scheme="https://www.sahil.cc/tags/js/"/>
+    
+      <category term="html" scheme="https://www.sahil.cc/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>This too happens</title>
+    <link href="https://www.sahil.cc/post/2017/This-too-happens/"/>
+    <id>https://www.sahil.cc/post/2017/This-too-happens/</id>
+    <published>2017-02-02T02:20:04.000Z</published>
+    <updated>2018-12-25T10:11:09.967Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;This is really unbelievable. Just goes to show how easy it is sit back and relax while the world is drowning.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www
+      
+    
+    </summary>
+    
+      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>The DevOps Docks</title>
+    <link href="https://www.sahil.cc/post/2017/The-DevOps-Docks/"/>
+    <id>https://www.sahil.cc/post/2017/The-DevOps-Docks/</id>
+    <published>2017-01-28T07:03:35.000Z</published>
+    <updated>2018-12-25T10:11:09.967Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;A cool way to vomit out all Ansible variables:&lt;br&gt;&lt;a href=&quot;https://coderwall.com/p/13lh6w/dump-all-variables&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://coderwall.com/p/13lh6w/dump-all-variables&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="guide" scheme="https://www.sahil.cc/categories/guide/"/>
+    
+    
+      <category term="ansible" scheme="https://www.sahil.cc/tags/ansible/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>J(u)S Rants</title>
+    <link href="https://www.sahil.cc/post/2017/jus-rants/"/>
+    <id>https://www.sahil.cc/post/2017/jus-rants/</id>
+    <published>2017-01-20T07:03:25.000Z</published>
+    <updated>2018-12-25T10:11:09.967Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;A few cool JS articles:&lt;br&gt;&lt;a href=&quot;https://circleci.com/blog/its-the-future/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;It’s The Future&lt;/a&gt;&lt;br&gt;&lt;a h
+      
+    
+    </summary>
+    
+      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+    
+    
+      <category term="rants" scheme="https://www.sahil.cc/tags/rants/"/>
+    
+      <category term="es6" scheme="https://www.sahil.cc/tags/es6/"/>
+    
+      <category term="js" scheme="https://www.sahil.cc/tags/js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Github 2016 Report Card</title>
+    <link href="https://www.sahil.cc/post/2017/Github-2016-Report-Card/"/>
+    <id>https://www.sahil.cc/post/2017/Github-2016-Report-Card/</id>
+    <published>2017-01-07T07:03:08.000Z</published>
+    <updated>2018-12-25T10:11:09.967Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;My 2016 Commits&lt;br&gt;&lt;img src=&quot;/images/2017/github-2016-commits.png&quot; alt=&quot;Github 2016 Commits&quot;&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+    
+    
+      <category term="git" scheme="https://www.sahil.cc/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Measuring the ripples - cross domain tracking</title>
+    <link href="https://www.sahil.cc/post/2016/Measuring-the-ripples-cross-domain-tracking/"/>
+    <id>https://www.sahil.cc/post/2016/Measuring-the-ripples-cross-domain-tracking/</id>
+    <published>2016-12-25T08:54:56.000Z</published>
+    <updated>2018-12-25T10:11:09.967Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;About cross domain tracking: &lt;a href=&quot;https://support.google.com/analytics/answer/1033876&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://support
+      
+    
+    </summary>
+    
+      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+    
+    
+      <category term="analytics" scheme="https://www.sahil.cc/tags/analytics/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>The Nodejs Toolbox (TNT)</title>
+    <link href="https://www.sahil.cc/post/2016/The-Nodejs-Toolbox-TNT/"/>
+    <id>https://www.sahil.cc/post/2016/The-Nodejs-Toolbox-TNT/</id>
+    <published>2016-12-19T20:18:40.000Z</published>
+    <updated>2018-12-25T10:11:09.967Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;An opinionated list of great tools for NodeJS tooling.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+    
+    
+      <category term="node" scheme="https://www.sahil.cc/tags/node/"/>
+    
+      <category term="tools" scheme="https://www.sahil.cc/tags/tools/"/>
+    
+      <category term="es6" scheme="https://www.sahil.cc/tags/es6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Not funny one of every six times</title>
+    <link href="https://www.sahil.cc/post/2016/Not-funny-one-of-every-six-times/"/>
+    <id>https://www.sahil.cc/post/2016/Not-funny-one-of-every-six-times/</id>
+    <published>2016-12-17T08:57:54.000Z</published>
+    <updated>2018-12-25T10:11:09.967Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;A few things NOT to try at home.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+    
+    
+      <category term="bash" scheme="https://www.sahil.cc/tags/bash/"/>
+    
+      <category term="fun" scheme="https://www.sahil.cc/tags/fun/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DNS redirection to URL through Route 53 and S3</title>
+    <link href="https://www.sahil.cc/post/2016/DNS-redirection-to-URL-through-Route-53-and-S3/"/>
+    <id>https://www.sahil.cc/post/2016/DNS-redirection-to-URL-through-Route-53-and-S3/</id>
+    <published>2016-12-16T22:03:51.000Z</published>
+    <updated>2018-12-25T10:11:09.967Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I recently needed to redirect a DNS (like links.sportscafe.in) to a path (like &lt;a href=&quot;http://trello.com/abc)&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://trello.com/abc)&lt;/a&gt;. Here is what finally helped me: &lt;a href=&quot;http://stackoverflow.com/a/14289082/1233476&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://stackoverflow.com/a/14289082/1233476&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+    
+    
+      <category term="aws" scheme="https://www.sahil.cc/tags/aws/"/>
+    
+      <category term="s3" scheme="https://www.sahil.cc/tags/s3/"/>
+    
+  </entry>
+  
+</feed>
