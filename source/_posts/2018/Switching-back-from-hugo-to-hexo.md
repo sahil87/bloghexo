@@ -8,7 +8,7 @@ categories:
 date: 2018-12-23 02:20:00
 ---
 
-I has been really long since I blogged anything. The primary reason was that blogging and searching through the existing blog had become tougher than required. Probably because of Hugo and the theme that I selected in it.
+It has been really long since I blogged anything. The primary reason was that blogging and searching through the existing blog had become tougher than required. Probably because of Hugo and the theme that I selected in it.
 
 Spent today shifting sahil.cc back from hugo to hexo. Ended up paying a heavy price for not sticking as closely as possible to the Markdown spec (and depending hugo/hexo specific plugins instead).
 
