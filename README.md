@@ -15,7 +15,7 @@ $ npm install
 #### Existing Project
 
 * Clone repo
-* `yarn, yarn global add hexo-cli`
+* `yarn; yarn global add hexo-cli`
 * Checkout already existing submodules in this project:
   ```
   git submodule update --init --recursive
