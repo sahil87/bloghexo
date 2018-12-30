@@ -12,6 +12,13 @@ featuredpath: "date"
 
 ![Caveman Fire](/images/2016/caveman4.jpg)
 
+TLDR;
+```bash
+gl #git log --oneline --decorate --graph --all
+gll #git log --graph --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
+tig #A commandline git history viewer
+```
+
 <!--more-->
 
 ### Push your currently detached HEAD
