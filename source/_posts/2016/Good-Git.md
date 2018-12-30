@@ -10,7 +10,7 @@ featuredpath: "date"
 ---
 ## Most used (but yet unremembered) git commands
 
-![Caveman Fire](/images/2016/caveman4.jpg)
+{% fullimage /images/2016/caveman4.jpg, Git Caveman %}
 
 TLDR;
 ```bash
@@ -32,7 +32,7 @@ tig #A commandline git history viewer
 ```bash
 git commit -m "Something terribly misguided"
 git reset --soft HEAD~
-<< edit files as necessary >> 
+#<< edit files as necessary >> 
 git add ... 
 git commit -c ORIG_HEAD
 ```
