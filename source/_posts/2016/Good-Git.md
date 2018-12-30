@@ -4,7 +4,7 @@ date: 2016-11-22 20:26:16
 tags: [git]
 categories: [guide]
 author: Sahil Ahuja
-featured: "caveman4.jpg"
+featured: "/images/2016/caveman4.jpg"
 featuredalt: "Git Caveman"
 featuredpath: "date"
 ---
