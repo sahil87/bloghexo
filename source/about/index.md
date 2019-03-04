@@ -29,7 +29,7 @@ Learning how to play [Violin](https://en.wikipedia.org/wiki/Violin) and [Piano](
 [{% fa flickr 2x%}](http://flickr.com/sahilahuja)
 [{% fa quora 2x%}](https://quora.com/profile/Sahil-Ahuja-17)
 [{% fa envelope 2x%}](mailto:sahilahuja@gmail.com)
-[{% fa rss 2x%}](http://www.sahil.cc/atom.xml) 
+[{% fa rss 2x%}](https://doku.dev/atom.xml) 
 </center>
 
 ---
