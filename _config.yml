@@ -4,15 +4,15 @@
 
 # Site
 title: Sahil's Journal
-subtitle: Keeping It Simple & Stupid
-description:
+subtitle: Views are my own. And the Models. And the Controllers.
+description: Keeping It Simple & Stupid
 author: Sahil Ahuja
 language: en
 timezone: Asia/Kolkata
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.sahil.cc
+url: https://doku.dev
 root: /
 permalink: post/:title/
 permalink_defaults:
@@ -79,8 +79,8 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:sahil87/sahil87.github.io
-  branch: master
+  repo: git@github.com:sahil87/bloghexo
+  branch: gh-pages
 
 sitemap:
   path: sitemap.xml
