@@ -1,6 +1,8 @@
 title: Do Main DEV
 author: Sahil Ahuja
 date: 2019-03-04 14:00:33
+categories:
+  - blog
 ---
 ## Once again, changing domain
 
