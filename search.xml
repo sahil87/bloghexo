@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[H Laws]]></title>
+    <url>%2Fpost%2F2019%2FH-Laws%2F</url>
+    <content type="text"><![CDATA[H LawsHofstadter’s Law: A task always takes longer than you expect, even when you take into account Hofstadter’s Law. Hartree’s Law: Whatever the state of a project, the time a project-leader will estimate for completion is constant. And then there’s also an “A” law: Atwood’s Law: Any application that can be written in JavaScript, will eventually be written in JavaScript. 🔗]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Do Main DEV]]></title>
+    <url>%2Fpost%2F2019%2FDo-Main-DEV%2F</url>
+    <content type="text"><![CDATA[Once again, changing domainThis time to a .dev domain - https://doku.dev Doku - inspired from dokuwiki - the wiki system that basically started my love for wikis.Also, looked up the following: http://www.romajidesu.com/dictionary/meaning-of-doku.html:123doku 【 毒 】 毒 Kanji Details1. (n) poison; toxicant この魚は毒がない。 2. harm; evil influence →Related words: 目の毒 , 毒する ¯\(ツ)/¯]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Switching (back) from hugo to hexo]]></title>
     <url>%2Fpost%2F2018%2FSwitching-back-from-hugo-to-hexo%2F</url>
-    <content type="text"><![CDATA[I has been really long since I blogged anything. The primary reason was that blogging and searching through the existing blog had become tougher than required. Probably because of Hugo and the theme that I selected in it. Spent today shifting sahil.cc back from hugo to hexo. Ended up paying a heavy price for not sticking as closely as possible to the Markdown spec (and depending hugo/hexo specific plugins instead). For Hexo theme, it was a close call between Hexo Next and Icarus. Finally Hexo Next won out for its ease of use. Now live at https://www.sahil.cc]]></content>
+    <content type="text"><![CDATA[It has been really long since I blogged anything. The primary reason was that blogging and searching through the existing blog had become tougher than required. Probably because of Hugo and the theme that I selected in it. Spent today shifting sahil.cc back from hugo to hexo. Ended up paying a heavy price for not sticking as closely as possible to the Markdown spec (and depending hugo/hexo specific plugins instead). For Hexo theme, it was a close call between Hexo Next and Icarus. Finally Hexo Next won out for its ease of use. Now live at https://www.sahil.cc]]></content>
       <categories>
         <category>blog</category>
       </categories>
@@ -311,14 +324,14 @@
         <category>guide</category>
       </categories>
       <tags>
-        <tag>jwt</tag>
         <tag>web</tag>
+        <tag>jwt</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[Good Git!]]></title>
     <url>%2Fpost%2F2016%2FGood-Git%2F</url>
-    <content type="text"><![CDATA[Most used (but yet unremembered) git commands Push your currently detached HEADgit push origin HEAD:master Delete remote branches onlygit push origin --delete branch_to_delete Changes in git index vs. local filesystem12345git commit -m "Something terribly misguided"git reset --soft HEAD~&lt;&lt; edit files as necessary &gt;&gt; git add ... git commit -c ORIG_HEAD git reset --soft HEAD~1 doesn’t remove the changes from index (i.e. git commit adds them again, no need to git add.). git reset HEAD~1 undoes the commit, removes changes from index but keeps the changes locally (working tree) git reset --hard HEAD~1 removes the changes from the filesystem (working tree) too. Remove git tracked files without removing them from filesystemgit rm --cached --force &quot;.idea&quot; Specific UsecasesPatch related123456#To see diff for a particular commit https://stackoverflow.com/a/17563740/1233476git diff COMMIT^ COMMIT#To remove untracked files from working treegit clean -n; #To checkgit clean -f -d; #To delete Submodules1234567891011121314#to checkout already existing submodules in an existing projectgit submodule update --init --recursive#To clone a project along with its submodulesgit clone --recursive &lt;project url&gt;#add a submodule in a repo`git submodule add https://github.com/&lt;user&gt;/rock rock` #remove a submodulegit submodule deinit rock#list existing submodulesgit submodule status Tags123456789npm version patch/minor/major #Changes packages.json and applies git taggit push origin v1.5 (or) git push origin --tagsgit tag v1.5 (lightweight tag)git tag -a -f -m "my version 1.4" v1.6 (annotated tag)git push --tags (or) git push upstream v2.3.3git tag -l "v1.8.5*" (list tags)git show v1.4git push --delete origin tagname #For remotegit tag --delete tagname #To remove local tag More awesome references: How to use git: https://guides.github.com/activities/contributing-to-open-source/#contributing How to write git commit messages: http://chris.beams.io/posts/git-commit/ Commit guidelines: http://contribute.jquery.org/commits-and-pull-requests/#commit-guidelines Git reset/revert: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting/ Easy git rebase: http://hackalyst.info/easy-git-rebase/ Real git rebase: http://hackalyst.info/real-rebase/ A few git tricks: http://prakhar.me/articles/a-few-git-tricks/ Working with submodules: https://github.com/blog/2104-working-with-submodules , https://chrisjean.com/git-submodules-adding-using-removing-and-updating/ Another way of using git shortcuts (without using aliases): https://medium.freecodecamp.com/bash-shortcuts-to-enhance-your-git-workflow-5107d64ea0ff#.6r30rrj9l]]></content>
+    <content type="text"><![CDATA[Most used (but yet unremembered) git commands TLDR;123gl #git log --oneline --decorate --graph --allgll #git log --graph --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit --alltig #A commandline git history viewer Push your currently detached HEADgit push origin HEAD:master Delete remote branches onlygit push origin --delete branch_to_delete Changes in git index vs. local filesystem12345git commit -m "Something terribly misguided"git reset --soft HEAD~#&lt;&lt; edit files as necessary &gt;&gt; git add ... git commit -c ORIG_HEAD git reset --soft HEAD~1 doesn’t remove the changes from index (i.e. git commit adds them again, no need to git add.). git reset HEAD~1 undoes the commit, removes changes from index but keeps the changes locally (working tree) git reset --hard HEAD~1 removes the changes from the filesystem (working tree) too. Remove git tracked files without removing them from filesystemgit rm --cached --force &quot;.idea&quot; Specific UsecasesPatch related123456#To see diff for a particular commit https://stackoverflow.com/a/17563740/1233476git diff COMMIT^ COMMIT#To remove untracked files from working treegit clean -n; #To checkgit clean -f -d; #To delete Submodules1234567891011121314#to checkout already existing submodules in an existing projectgit submodule update --init --recursive#To clone a project along with its submodulesgit clone --recursive &lt;project url&gt;#add a submodule in a repo`git submodule add https://github.com/&lt;user&gt;/rock rock` #remove a submodulegit submodule deinit rock#list existing submodulesgit submodule status Tags123456789npm version patch/minor/major #Changes packages.json and applies git taggit push origin v1.5 (or) git push origin --tagsgit tag v1.5 (lightweight tag)git tag -a -f -m "my version 1.4" v1.6 (annotated tag)git push --tags (or) git push upstream v2.3.3git tag -l "v1.8.5*" (list tags)git show v1.4git push --delete origin tagname #For remotegit tag --delete tagname #To remove local tag More awesome references: How to use git: https://guides.github.com/activities/contributing-to-open-source/#contributing How to write git commit messages: http://chris.beams.io/posts/git-commit/ Commit guidelines: http://contribute.jquery.org/commits-and-pull-requests/#commit-guidelines Git reset/revert: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting/ Easy git rebase: http://hackalyst.info/easy-git-rebase/ Real git rebase: http://hackalyst.info/real-rebase/ A few git tricks: http://prakhar.me/articles/a-few-git-tricks/ Working with submodules: https://github.com/blog/2104-working-with-submodules , https://chrisjean.com/git-submodules-adding-using-removing-and-updating/ Another way of using git shortcuts (without using aliases): https://medium.freecodecamp.com/bash-shortcuts-to-enhance-your-git-workflow-5107d64ea0ff#.6r30rrj9l]]></content>
       <categories>
         <category>guide</category>
       </categories>
@@ -731,8 +744,8 @@
         <category>blog</category>
       </categories>
       <tags>
-        <tag>camera</tag>
         <tag>digikam</tag>
+        <tag>camera</tag>
       </tags>
   </entry>
   <entry>
@@ -773,8 +786,8 @@
         <category>blog</category>
       </categories>
       <tags>
-        <tag>camera</tag>
         <tag>digikam</tag>
+        <tag>camera</tag>
       </tags>
   </entry>
   <entry>

@@ -108,13 +108,16 @@
 
 
 
-  <meta property="og:type" content="website">
+  <meta name="description" content="Keeping It Simple &amp; Stupid">
+<meta property="og:type" content="website">
 <meta property="og:title" content="Sahil&#39;s Journal">
-<meta property="og:url" content="https://www.sahil.cc/page/6/index.html">
+<meta property="og:url" content="https://doku.dev/page/6/index.html">
 <meta property="og:site_name" content="Sahil&#39;s Journal">
+<meta property="og:description" content="Keeping It Simple &amp; Stupid">
 <meta property="og:locale" content="en">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Sahil&#39;s Journal">
+<meta name="twitter:description" content="Keeping It Simple &amp; Stupid">
 
 
 
@@ -123,7 +126,7 @@
 
 
 
-  <link rel="canonical" href="https://www.sahil.cc/page/6/">
+  <link rel="canonical" href="https://doku.dev/page/6/">
 
 
 
@@ -208,7 +211,7 @@
     </div>
     
       
-        <p class="site-subtitle">Keeping It Simple & Stupid</p>
+        <p class="site-subtitle">Views are my own. And the Models. And the Controllers.</p>
       
     
     
@@ -392,11 +395,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.sahil.cc/post/2008/t-shirt-quotes/">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2008/mail-with-postfix-and-ldap/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
       <meta itemprop="image" content="/images/theme/next/avatar.png">
     </span>
 
@@ -412,7 +415,455 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/post/2008/t-shirt-quotes/" class="post-title-link" itemprop="https://www.sahil.cc/page/6/index.html">T-shirt Quotes</a>
+                <a href="/post/2008/mail-with-postfix-and-ldap/" class="post-title-link" itemprop="https://doku.dev/page/6/index.html">Mail with postfix and ldap</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2008-05-03 08:39:43" itemprop="dateCreated datePublished" datetime="2008-05-03T08:39:43+05:30">2008-05-03</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-12-25 15:41:09" itemprop="dateModified" datetime="2018-12-25T15:41:09+05:30">2018-12-25</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/nitt/" itemprop="url" rel="index"><span itemprop="name">nitt</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/post/2008/mail-with-postfix-and-ldap/#comments" itemprop="discussionUrl">
+                
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="post/2008/mail-with-postfix-and-ldap/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Yes, it’s possible. I did it for the <a href="http://pragyan.org" target="_blank" rel="noopener">pragyan.org</a> server.</p>
+<p>The setup we used was :</p>
+<ul>
+<li><code>/var/mail/virtual/%u</code>: the inboxes of different users,</li>
+<li><code>/var/mail/virtual/PragyanMail/%u/%f</code>: the different folders in mailboxes of different users.</li>
+</ul>
+<p>It’s much easily setup than one thinks initially.</p>
+<p>HOW?? Here’s how:</p>
+<p><em>But</em>, as with anything else, basics first</p>
+<ul>
+<li><p><a href="http://en.wikipedia.org/wiki/SMTP" target="_blank" rel="noopener"><acronym title="Simple Mail Transfer Protocol">SMTP</acronym></a> server : Simple Mail Transfer Protocol : The server which sends and receives mails. <strong>Postfix (or smtp)</strong>.</p>
+</li>
+<li><p><a href="http://en.wikipedia.org/wiki/IMAP" target="_blank" rel="noopener"><acronym title="Internet Message Access Protocol">IMAP</acronym></a> server : Internet Message Access Protocol : The service which interacts with the <acronym title="Simple Mail Transfer Protocol">SMTP</acronym> server to access mail and send mail. <strong>Dovecot</strong></p>
+</li>
+<li><p>These come preinstalled in most linux distributions.</p>
+</li>
+</ul>
+<p>Apart from these, other tricks that can be used by people to confuse simple minded, bread earning people like us are :</p>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Mail_transfer_agent" target="_blank" rel="noopener">MTA</a> : Mail transfer agent : A <a href="http://en.wikipedia.org/wiki/Computer_program" title="Computer program" target="_blank" rel="noopener">computer program</a> or <a href="http://en.wikipedia.org/wiki/Software_agent" title="Software agent" target="_blank" rel="noopener">software agent</a> that transfers <a href="http://en.wikipedia.org/wiki/Electronic_mail" title="Electronic mail" target="_blank" rel="noopener">electronic mail</a> messages from one computer to another. (Eg: <a href="http://www.postfix.org/" target="_blank" rel="noopener">Postfix</a>, <a href="http://www.sendmail.org/" target="_blank" rel="noopener">Sendmail</a>)</li>
+<li><a href="http://en.wikipedia.org/wiki/Mail_delivery_agent" target="_blank" rel="noopener">MDA</a> : Mail delivery agent : A <strong>Mail Delivery Agent</strong> (<strong>MDA</strong>) is <a href="http://en.wikipedia.org/wiki/Software" title="Software" target="_blank" rel="noopener">software</a> that delivers <a href="http://en.wikipedia.org/wiki/E-mail" title="E-mail" target="_blank" rel="noopener">e-mail</a> messages right after they’ve been accepted on a server, distributing them to recipients’ individual <a href="http://en.wikipedia.org/wiki/Email_Mailbox" title="Email Mailbox" target="_blank" rel="noopener">mailboxes</a>. (Eg: <a href="http://www.dovecot.org/" target="_blank" rel="noopener">dovecot</a>)</li>
+<li><a href="http://en.wikipedia.org/wiki/Mail_user_agent" target="_blank" rel="noopener">MUA</a> : Mail user agent : An <strong>e-mail client</strong>, aka <strong>Mail User Agent</strong> (MUA), aka <strong>email reader</strong> is a frontend <a href="http://en.wikipedia.org/wiki/Computer_program" title="Computer program" target="_blank" rel="noopener">computer program</a> used to manage <a href="http://en.wikipedia.org/wiki/Email" title="Email" target="_blank" rel="noopener">email</a>. (Eg: <a href="http://gmail.com" target="_blank" rel="noopener">gmail</a>, <a href="http://gnome.org/projects/evolution/" target="_blank" rel="noopener">evolution</a>, <a href="http://www.horde.org/" target="_blank" rel="noopener">horde</a>, <a href="http://squirrelmail.org/" target="_blank" rel="noopener">squirrelmail</a>, Outlook Express.)<br>Now that thats out of the way, lets get our hands dirty.</li>
+</ul>
+<p>But again, not so fast. As with anything in linux, when you set off to configure something, you end up knowing much more than you bargained for. ;)</p>
+<h3 id="Aliases"><a href="#Aliases" class="headerlink" title="Aliases"></a><a id="aliases" name="aliases">Aliases</a></h3><p>Aliases are mappings between one source name and one or many destination name (in mail).</p>
+<p>Aliases can be found out from flat files in the form of mapping, from sql queries or from ldap (<code>man ldap_table</code>). The source itself can be in the destination.</p>
+<p>Link to alias files is given in <code>/etc/postfix/main.cf</code> at line<br><code>alias_maps = hash:/etc/aliases, ldap:/etc/postfix/ldap-aliases.cf</code></p>
+<p>Type <code>/usr/sbin/postmap -q core@pragyan.org ldap:/etc/postfix/ldap-aliases.cf</code> to see its effects.</p>
+<h3 id="local-transport"><a href="#local-transport" class="headerlink" title="local_transport"></a><a id="local_transport" name="local_transport">local_transport</a></h3><p>The <em>local_transport</em> parameter corresponds to the mail delivery agent used.</p>
+<ol>
+<li><p>The default with postfix is <em>local</em>. The problem with local is that is requires local users and hence, a posixAccount schema to be an objectClass of every mail account. Rejected. Btw local also has to ability of mail forwarding to a user. i.e. if mailbox of <strong><em>user</em></strong> user1 is <a href="mailto:user1@gmail.com" target="_blank" rel="noopener">user1@gmail.com</a> (user forwarding), then local will also forward to <a href="mailto:user1@gmail.com" target="_blank" rel="noopener">user1@gmail.com</a>. By default, it assumes the uid of the user it is delivering mail to while delvering mail.</p>
+</li>
+<li><p>Next is <em>virtual</em>. This is the one used. Virtual accepts users who are <em>system</em> users. But virtual (for security purposes) does not forward to hosts other than the localhost. So how do we forward to external hosts? virtual forwards in case the mails are aliases. So we simply put the gmail address as the entry of one of the aliases of the mail. If virtual MDA is used then whose uid does it use? (because the uid of the user himself doesn’t exist on the system). Another parameter value has to be used :</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">virtual_minimum_uid = 100 (security feature)</span><br><span class="line">virtual_uid_maps = static:700</span><br><span class="line">virtual_gid_maps = static:700</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Other mail delivery agents : <em>procmail</em> doesn’t understand LDAP, and <em>maildrop</em> has too much overhead.</p>
+</li>
+</ol>
+<h3 id="Group-expansion"><a href="#Group-expansion" class="headerlink" title="Group expansion"></a><a id="group_expansion" name="group_expansion">Group expansion</a></h3><p>Excellent notes are available in /usr/share/doc/postfix-2.4.3/README_FILES/LDAP_README.</p>
+<p>Any “map” parameter value, like alias_maps, can be either given a flat mapping file name, or a .cf file, with tells it what to do to get the mapping, in this format : <strong>protocol:filename</strong>. Eg.</p>
+<p><code>virtual_mailbox_maps = ldap:/etc/postfix/accountsmap.cf</code></p>
+<h3 id="Mail-boxes"><a href="#Mail-boxes" class="headerlink" title="Mail boxes"></a><a id="mail_boxes" name="mail_boxes">Mail boxes</a></h3><p><strong>mbox</strong> is a format for storing mails. It is the default format used in postfix and dovecot. This is a line from dovecot conf :<br><code>mail_location = mbox:/var/spool/mail/virtual/PragyanMail/%u:INBOX=/var/spool/mail/virtual/%u</code></p>
+<p>The first part (mbox:<strong>/var/spool/mail/virtual/PragyanMail/</strong>%u:INBOX=/var/spool/mail/virtual/%u) refers to the user’s mail folder, which contains all his mail folders (Trash, drafts, sent mail.. ) (<em>the user’s mail folders are files in mbox format</em>)</p>
+<p>The second part (mbox:/var/spool/mail/virtual/PragyanMail/%u:INBOX=<strong>/var/spool/mail/virtual/%u</strong>) refers to the one specific user folder (i.e. server file) which postfix writes to, that is his INBOX. (All other folders are written to and handled by the <acronym title="Internet Message Access Protocol">IMAP</acronym> client - dovecot.) Other variables which could have been used for specifying this are : %u - username, %n - user part in user@domain, same as %u if there’s no domain, %d - domain part in user@domain, %h - home directory etc.</p>
+<p>A virtual user can specify his mail folder to be anywhere. So, the following is a security config for postfix INBOX files :</p>
+<p><code>virtual_mailbox_base = /var/spool/mail/virtual</code></p>
+<p>Also <code>chmod g+s /usr/bin/procmail</code> for it to be able to create mail directories</p>
+<h3 id="Maps-specified-in-postfix"><a href="#Maps-specified-in-postfix" class="headerlink" title="Maps specified in postfix"></a><a id="maps_specified_in_postfix" name="maps_specified_in_postfix">Maps specified in postfix</a></h3><p>Maps are specified in <code>/etc/postfix/main.cf</code>. Important maps to be specified are :</p>
+<ol>
+<li>User aliases <strong>virtual_alias_maps</strong> - mapping between <a href="mailto:group@domain.org" target="_blank" rel="noopener">group@domain.org</a> and <a href="mailto:user1@pragyan.org" target="_blank" rel="noopener">user1@pragyan.org</a>, <a href="mailto:user2@pragyan.org" target="_blank" rel="noopener">user2@pragyan.org</a>, …</li>
+<li>User mailboxes <strong>virtual_mailbox_maps</strong> - mapping between mailaddress (<a href="mailto:user1@pragyan.org" target="_blank" rel="noopener">user1@pragyan.org</a>) and mailbox location (<code>/var/spool/mail/virtual/user1</code>). A confirmation that the mail address corresponds to a real virtual user. For mail to be delivered, this entry needs to be there, which contains the mailbox address. This is but only a one to one mapping. (Ignores all following values)<br><code>local_recipient_maps = $virtual_mailbox_maps</code><br>This line is required whenever the <strong>local_transport</strong> is changed to something else. (in this case to virtual)</li>
+</ol>
+<h3 id="Schemas-The-Real-Working"><a href="#Schemas-The-Real-Working" class="headerlink" title="Schemas (The Real Working):"></a><a id="schemas_the_real_working" name="schemas_the_real_working">Schemas (The Real Working):</a></h3><ul>
+<li>Ldap Entry <strong>evolutionPersonList</strong><pre><br>contact (multiple) : links to others ldap entries : uid=sahil,ou=P… , uid=cyber, ou=.. , …<br>mail (multiple) : mails : <a href="mailto:sahilahuja@gmail.com" target="_blank" rel="noopener">sahilahuja@gmail.com</a>, <a href="mailto:core@pragyan.org" target="_blank" rel="noopener">core@pragyan.org</a>, …<br>listName (single) : list name : coding<br></pre></li>
+<li><p>main.cf entry : <code>virtual_alias_maps = ldap:/etc/postfix/ldap-aliases.cf</code>. Contents of ldap-aliases.cf :</p>
+<figure class="highlight toml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">server_host</span> = <span class="number">10.0</span>.<span class="number">0.126</span></span><br><span class="line"><span class="attr">search_base</span> = ou=Groups,ou=Pragyan,dc=delta,dc=nitt.edu</span><br><span class="line"><span class="attr">query_filter</span> = (&amp;amp;(objectClass=*)(listName=%u))</span><br><span class="line"><span class="attr">result_attribute</span> = mail</span><br><span class="line"><span class="attr">special_result_attribute</span> = contact</span><br><span class="line"><span class="attr">bind</span> = <span class="literal">yes</span></span><br><span class="line"><span class="attr">bind_dn</span> = cn=dovecot,ou=Pragyan,dc=delta,dc=nitt.edu</span><br><span class="line"><span class="attr">bind_pw</span> = ******</span><br></pre></td></tr></table></figure>
+<ul>
+<li>The field matched is <strong>listName</strong>.</li>
+<li>The query runs recursively runs on field “contact”.</li>
+<li>All mails of form <a href="mailto:alias@pragyan.org" target="_blank" rel="noopener">alias@pragyan.org</a> again go through the same process.</li>
+</ul>
+</li>
+<li><p>Ldap entry <strong>evolutionPerson</strong> . Important thing in it is the mapping between uid and mail. It’s a proof to postfix the user is a real virtual user.</p>
+</li>
+<li><p>main.cf entry <code>virtual_mailbox_maps = ldap:/etc/postfix/accountsmap.cf</code>. Contents of accountsmap.cf :</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">server_host</span> = <span class="number">10.0</span>.<span class="number">0.126</span></span><br><span class="line"><span class="attr">search_base</span> = ou=People,ou=Pragyan,dc=delta,dc=nitt.edu</span><br><span class="line"><span class="attr">query_filter</span> = (&amp;amp;(objectClass=*)(mail=%s))</span><br><span class="line"><span class="attr">result_attribute</span> = uid</span><br><span class="line"><span class="attr">bind</span> = <span class="literal">yes</span></span><br><span class="line"><span class="attr">bind_dn</span> = cn=dovecot,ou=Pragyan,dc=delta,dc=nitt.edu</span><br><span class="line">[gallery]bind_pw = ******</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>The final main.cf entry that fits it all : virtual_mailbox_base = /var/spool/mail/virtual . A file with the name that is a result of the previous query (<strong>uid</strong>), gets created in this directory as the inbox of the user.<br>Workflow is mailid → getaliases → Use alias result to get mail ids → deliver. That is, first alaises get processed, then accountsmap.</p>
+</li>
+</ul>
+<p>Here are the files I used finally :</p>
+<ul>
+<li>Postfix : <span class="wikilink1">main.cf</span>, <span class="wikilink1">accountsmap.cf</span>, <span class="wikilink1">ldap-alias.conf</span></li>
+<li>Dovecot : <span class="wikilink1">dovecot.conf</span>, <span class="wikilink1">dovecot-ldap.conf</span></li>
+<li><a href="https://gist.github.com/sahil87/fe2569f472cccaa1c277aefc2c2ff245" target="_blank" rel="noopener">Here</a> is a compilation of the final content of these files.</li>
+</ul>
+<p><a href="http://wanderingbarque.com/howtos/mailserver/mailserver.html" target="_blank" rel="noopener">Here</a> is the link of the guide I used as my own reference.</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2008/final-report-and-files/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Sahil Ahuja">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
+      <meta itemprop="image" content="/images/theme/next/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Sahil's Journal">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/post/2008/final-report-and-files/" class="post-title-link" itemprop="https://doku.dev/page/6/index.html">Final report and files</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2008-05-03 04:34:00" itemprop="dateCreated datePublished" datetime="2008-05-03T04:34:00+05:30">2008-05-03</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-12-25 15:41:09" itemprop="dateModified" datetime="2018-12-25T15:41:09+05:30">2018-12-25</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/pcbo/" itemprop="url" rel="index"><span itemprop="name">pcbo</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/post/2008/final-report-and-files/#comments" itemprop="discussionUrl">
+                
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="post/2008/final-report-and-files/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Here is the final project :</p>
+<ul>
+<li><a href="https://github.com/sahil87/pcbo" target="_blank" rel="noopener">Source code</a></li>
+<li><a href="https://github.com/sahil87/pcbo/raw/master/report.pdf" target="_blank" rel="noopener">Project report</a></li>
+<li><a href="https://github.com/sahil87/pcbo/raw/master/install.pdf" target="_blank" rel="noopener">Installation guide</a></li>
+</ul>
+<p><img src="/images/2008/pcbo/canteen-pic.jpg" alt="IITB Canteen"><br><img src="/images/2008/pcbo/103_0169.jpg" alt="Our Circuit connected to the power supply"><br><img src="/images/2008/pcbo/103_0166.jpg" alt="Our Circuit"></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2008/t-shirt-quotes/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Sahil Ahuja">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
+      <meta itemprop="image" content="/images/theme/next/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Sahil's Journal">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/post/2008/t-shirt-quotes/" class="post-title-link" itemprop="https://doku.dev/page/6/index.html">T-shirt Quotes</a>
               
             
           </h1>
@@ -590,11 +1041,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.sahil.cc/post/2008/life/">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2008/life/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
       <meta itemprop="image" content="/images/theme/next/avatar.png">
     </span>
 
@@ -610,7 +1061,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/post/2008/life/" class="post-title-link" itemprop="https://www.sahil.cc/page/6/index.html">Life</a>
+                <a href="/post/2008/life/" class="post-title-link" itemprop="https://doku.dev/page/6/index.html">Life</a>
               
             
           </h1>
@@ -778,11 +1229,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.sahil.cc/post/2008/fedora-directory-server-rocks/">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2008/fedora-directory-server-rocks/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
       <meta itemprop="image" content="/images/theme/next/avatar.png">
     </span>
 
@@ -798,7 +1249,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/post/2008/fedora-directory-server-rocks/" class="post-title-link" itemprop="https://www.sahil.cc/page/6/index.html">Fedora Directory Server Rocks!!!</a>
+                <a href="/post/2008/fedora-directory-server-rocks/" class="post-title-link" itemprop="https://doku.dev/page/6/index.html">Fedora Directory Server Rocks!!!</a>
               
             
           </h1>
@@ -973,11 +1424,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.sahil.cc/post/2008/woes-of-a-pragyan-girlfriend/">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2008/woes-of-a-pragyan-girlfriend/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
       <meta itemprop="image" content="/images/theme/next/avatar.png">
     </span>
 
@@ -993,7 +1444,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/post/2008/woes-of-a-pragyan-girlfriend/" class="post-title-link" itemprop="https://www.sahil.cc/page/6/index.html">Woes of a Pragyan Girlfriend</a>
+                <a href="/post/2008/woes-of-a-pragyan-girlfriend/" class="post-title-link" itemprop="https://doku.dev/page/6/index.html">Woes of a Pragyan Girlfriend</a>
               
             
           </h1>
@@ -1144,11 +1595,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.sahil.cc/post/2007/back-to-square-one/">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2007/back-to-square-one/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
       <meta itemprop="image" content="/images/theme/next/avatar.png">
     </span>
 
@@ -1164,7 +1615,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/post/2007/back-to-square-one/" class="post-title-link" itemprop="https://www.sahil.cc/page/6/index.html">Back to square one</a>
+                <a href="/post/2007/back-to-square-one/" class="post-title-link" itemprop="https://doku.dev/page/6/index.html">Back to square one</a>
               
             
           </h1>
@@ -1334,11 +1785,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.sahil.cc/post/2007/trip-to-goa/">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2007/trip-to-goa/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
       <meta itemprop="image" content="/images/theme/next/avatar.png">
     </span>
 
@@ -1354,7 +1805,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/post/2007/trip-to-goa/" class="post-title-link" itemprop="https://www.sahil.cc/page/6/index.html">Trip to GOA</a>
+                <a href="/post/2007/trip-to-goa/" class="post-title-link" itemprop="https://doku.dev/page/6/index.html">Trip to GOA</a>
               
             
           </h1>
@@ -1523,11 +1974,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.sahil.cc/post/2007/a-tryst-with-a-first-year/">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2007/a-tryst-with-a-first-year/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
       <meta itemprop="image" content="/images/theme/next/avatar.png">
     </span>
 
@@ -1543,7 +1994,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/post/2007/a-tryst-with-a-first-year/" class="post-title-link" itemprop="https://www.sahil.cc/page/6/index.html">A tryst with a first year :)</a>
+                <a href="/post/2007/a-tryst-with-a-first-year/" class="post-title-link" itemprop="https://doku.dev/page/6/index.html">A tryst with a first year :)</a>
               
             
           </h1>
@@ -1740,11 +2191,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.sahil.cc/post/2007/stereoscopy/">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2007/stereoscopy/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
       <meta itemprop="image" content="/images/theme/next/avatar.png">
     </span>
 
@@ -1760,7 +2211,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/post/2007/stereoscopy/" class="post-title-link" itemprop="https://www.sahil.cc/page/6/index.html">Stereoscopy</a>
+                <a href="/post/2007/stereoscopy/" class="post-title-link" itemprop="https://doku.dev/page/6/index.html">Stereoscopy</a>
               
             
           </h1>
@@ -1915,448 +2366,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.sahil.cc/post/2007/normal-forms/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/theme/next/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Sahil's Journal">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/post/2007/normal-forms/" class="post-title-link" itemprop="https://www.sahil.cc/page/6/index.html">Normal forms</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2007-06-04 10:47:00" itemprop="dateCreated datePublished" datetime="2007-06-04T10:47:00+05:30">2007-06-04</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-12-25 15:41:09" itemprop="dateModified" datetime="2018-12-25T15:41:09+05:30">2018-12-25</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/nitt/" itemprop="url" rel="index"><span itemprop="name">nitt</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/post/2007/normal-forms/#comments" itemprop="discussionUrl">
-                
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="post/2007/normal-forms/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Sitting here in Morgan Stanley, it’s hard to find free time. Things are always on the run.</p>
-<p>But one day, I did find free time, and did what I had wanted to do for a very long time - learn about Normal forms in RDBMS.</p>
-<p>Here is what I gathered from these websites :</p>
-<ul>
-<li><a href="http://www.blogger.com/post-create.g?blogID=27948672#%20http://www.serverwatch.com/tutorials/article.php/1549781" target="_blank" rel="noopener">http://www.serverwatch.com/tutorials/article.php/1549781</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Database_normalization" target="_blank" rel="noopener">http://en.wikipedia.org/wiki/Database_normalization</a></li>
-<li><a href="http://www.datamodel.org/NormalizationRules.html" target="_blank" rel="noopener">http://www.datamodel.org/NormalizationRules.html</a><h2 id="1st-Normal-Form"><a href="#1st-Normal-Form" class="headerlink" title="1st Normal Form:"></a><a href="http://en.wikipedia.org/wiki/First_normal_form" target="_blank" rel="noopener">1st Normal Form</a>:</h2></li>
-</ul>
-<ol>
-<li><p><strong>No multivalued attribute</strong></p>
-<p> |StudID|Course|<br> |—|—|<br> |12345|3100,3600,3900|<br> |54321|1300,2300,3400|<br> (Wrong)</p>
-</li>
-<li><p><strong>No repeating group</strong></p>
-<p> |StudID|Course1|Course2|Course3|<br> |—|—|—|—|<br> | 12345 | 3100 | 3600 | 3900 |<br> |54321 | 1300 | 2300 | 3400 |<br> (Wrong)</p>
-</li>
-<li><p><strong>Presence of atleast one unique identifier (addn of ID field)</strong></p>
-<p> | StudID|Course |<br> |—|—|<br> |12345 | 3100|<br> |12345 | 3600|<br> |54321 | 1300|<br> |54321 | 2300|<br> (Right)</p>
-</li>
-</ol>
-<p>There needs to be one composite key atleast. (One or more fields that can be used to distinguish every row uniquely). In the above example, if it was possible for the same student to take the same course twice, then we would have to add another uID field to bring the DB to the first normal form.</p>
-<h2 id="2nd-Normal-Form"><a href="#2nd-Normal-Form" class="headerlink" title="2nd Normal Form:"></a><a href="http://en.wikipedia.org/wiki/Second_normal_form" target="_blank" rel="noopener">2nd Normal Form</a>:</h2><p>The DB is in this if all non-prime attributes are completely dependent on a candidate key. (and not on a part of it).</p>
-<p>i.e. no repetition of key detail in one detail</p>
-<table>
-<thead>
-<tr>
-<th>StudID  CourseID</th>
-<th>StudNm  ProfID  ProfName</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>123456 310000</td>
-<td>April00 6789  David</td>
-</tr>
-<tr>
-<td>123456 410000</td>
-<td>April00 2345  David</td>
-</tr>
-<tr>
-<td>123456 210000</td>
-<td>April00 6789  David</td>
-</tr>
-</tbody>
-</table>
-<p>Candidate Key = StidID + CourseID</p>
-<p>But StudNm (student name) depends only on StudID (and not on StudID + CourseID)<br>Had prof been just a function of course, even that would have to be removed.<br>Hence it is not in 2nd NF.<br>The ProfName-ProfID dependency is removed in the 3rd NF (where no attribute can be dependent on a non-key attribute in that table).<br>No part key dependencies can exist in 2nd NF.</p>
-<p>None of the non-prime attributes of the table are functionally dependent on a part (proper subset) of a candidate key; in other words, all functional dependencies of non-prime attributes on candidate keys are full functional dependencies. For example, in an “Employees’ Skills” table whose attributes are Employee ID, Employee Address, and Skill, the combination of Employee ID and Skill uniquely identifies records within the table. Given that Employee Address depends on only one of those attributes – namely, Employee ID – the table is not in 2NF.</p>
-<ul>
-<li><strong>Candidate key</strong>: A <a href="http://en.wikipedia.org/wiki/Candidate_key" title="Candidate key" target="_blank" rel="noopener">candidate key</a> is a minimal superkey, that is, a superkey for which we can say that no proper subset of it is also a superkey. {Employee Id, Skill} would be a candidate key for the “Employees’ Skills” table.</li>
-<li><strong>uperkey</strong>: A <a href="http://en.wikipedia.org/wiki/Superkey" title="Superkey" target="_blank" rel="noopener">superkey</a> is an attribute or set of attributes that uniquely identifies rows within a table; in other words, two distinct rows are always guaranteed to have distinct superkeys. {Employee ID, Employee Address, Skill} would be a superkey for the “Employees’ Skills” table; {Employee ID, Skill} would also be a superkey.</li>
-<li><strong>Non-prime attribute</strong>: A non-prime attribute is an attribute that does not occur in any candidate key. Employee Address would be a non-prime attribute in the “Employees’ Skills” table.</li>
-<li><p><strong>Primary key</strong>: Most <a href="http://en.wikipedia.org/wiki/Database_management_system" title="Database management system" target="_blank" rel="noopener">DBMSs</a> require a table to be defined as having a single unique key, rather than a number of possible unique keys. A <a href="http://en.wikipedia.org/wiki/Primary_key" title="Primary key" target="_blank" rel="noopener">primary key</a> is a candidate key which the database designer has designated for this purpose.<br>Some thoughts :</p>
-</li>
-<li><p>In and after 2nd NF, all tables have only one candidate key. -&gt; FALSE</p>
-</li>
-<li>All candidate keys in a table map to each other one to one. -&gt; TRUE</li>
-<li><p>What normalization stage ensures that only one candidate key is remaining?</p>
-<ul>
-<li>None. Beacause <a href="http://en.wikipedia.org/wiki/Database_normalization" target="_blank" rel="noopener">normalization</a> aims at reducing data duplication and inconsistencies. Candidate keys in a table causes no redundency.</li>
-</ul>
-</li>
-<li><p>If a table in 1st NF has no composite candidate keys (candidate keys consisting of more then one attributes), then it is automatically in 2nd NF.</p>
-</li>
-</ul>
-<h2 id="3rd-Normal-Form"><a href="#3rd-Normal-Form" class="headerlink" title="3rd Normal Form:"></a><a href="http://en.wikipedia.org/wiki/Third_normal_form" target="_blank" rel="noopener">3rd Normal Form</a>:</h2><p>No non-transitive dependencies:<br>A non-transitive dependency is one in which an attribute is dependent on a non-key attribute in that table.<br>For example, in the ProfID example given above, to bring it to 3rd normal form, ProfName and ProfID would have to brought to a separate table. Because ProfName is a non-transitive dependency.</p>
-<ul>
-<li>In 2nd Normal form, all candidate keys become mutually independent. FALSE</li>
-<li>In 2nd Normal form, any candidate key is a candidate key (i.e. is a sufficient and necessary dependency) for all other attributes. FALSE - this happens in 3rd NF.</li>
-<li>In 3rd Normal form, non-prime attributes become dependent on a candidate key. TRUE</li>
-</ul>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.sahil.cc/post/2006/a-few-notes-on-exposure/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/theme/next/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Sahil's Journal">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/post/2006/a-few-notes-on-exposure/" class="post-title-link" itemprop="https://www.sahil.cc/page/6/index.html">A few notes on exposure</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2006-12-15 03:13:00" itemprop="dateCreated datePublished" datetime="2006-12-15T03:13:00+05:30">2006-12-15</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-12-25 15:41:09" itemprop="dateModified" datetime="2018-12-25T15:41:09+05:30">2018-12-25</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/blog/" itemprop="url" rel="index"><span itemprop="name">blog</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/post/2006/a-few-notes-on-exposure/#comments" itemprop="discussionUrl">
-                
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="post/2006/a-few-notes-on-exposure/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><a href="http://en.wikipedia.org/wiki/Exposure_%28photography%29" target="_blank" rel="noopener">Exposure</a> refers to the amount of light falling onto the camera sensor. It is governed by two things :</p>
-<p><img src="/images/2006/DSC00732.jpg" alt="High Exposure"></p>
-<ol>
-<li>The  sensitivity of the medium the light is falling on (the ISO setting of your camers).</li>
-<li>The length of time for which the shutter the open and the apperture size (the brightness setting of your camera.<br>So, if you want a bright image, either increase the ISO sensitivity or increase the brightness. Increasing ISO sensitivity reduces image quality by increasing noise. Increasing brightness reduces the image quality by reducing the shutter speed.</li>
-</ol>
-<p>For a great special effect reduce the ISO sensitivity and increase the brightness to get the same effect you would get by moving the “levels” center controller in any image editting software to the left. This is because of the increased exposure time.<br><img src="/images/2006/DSC00441.jpg" alt="Reduced ISO"></p>
-<p>For a natural looking image reduce the brightness and increase the ISO sensitivity.<br><img src="/images/2006/DSC00440.jpg" alt="High ISO"></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -2396,7 +2405,7 @@
               <img class="site-author-image" itemprop="image" src="/images/theme/next/avatar.png" alt="Sahil Ahuja">
             
               <p class="site-author-name" itemprop="name">Sahil Ahuja</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">Keeping It Simple & Stupid</p>
           </div>
 
           
@@ -2406,7 +2415,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">107</span>
+                    <span class="site-state-item-count">109</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -2745,7 +2754,7 @@
                   </li>
                 
                   <li class="links-of-blogroll-item">
-                    <a href="https://medium.com/@sahilahuja" title="https://medium.com/@sahilahuja" rel="noopener" target="_blank">Medium</a>
+                    <a href="https://medium.com/@sahilahuja" title="https://medium.com/@sahilahuja" rel="noopener" target="_blank">Medium Posts</a>
                   </li>
                 
               </ul>
@@ -2781,7 +2790,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; 2008 – <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; 2008 – <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
@@ -2793,9 +2802,15 @@
 </div>
 
 
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
 
 
 
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v6.6.0</div>
 
 
 

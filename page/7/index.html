@@ -108,13 +108,16 @@
 
 
 
-  <meta property="og:type" content="website">
+  <meta name="description" content="Keeping It Simple &amp; Stupid">
+<meta property="og:type" content="website">
 <meta property="og:title" content="Sahil&#39;s Journal">
-<meta property="og:url" content="https://www.sahil.cc/page/7/index.html">
+<meta property="og:url" content="https://doku.dev/page/7/index.html">
 <meta property="og:site_name" content="Sahil&#39;s Journal">
+<meta property="og:description" content="Keeping It Simple &amp; Stupid">
 <meta property="og:locale" content="en">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Sahil&#39;s Journal">
+<meta name="twitter:description" content="Keeping It Simple &amp; Stupid">
 
 
 
@@ -123,7 +126,7 @@
 
 
 
-  <link rel="canonical" href="https://www.sahil.cc/page/7/">
+  <link rel="canonical" href="https://doku.dev/page/7/">
 
 
 
@@ -208,7 +211,7 @@
     </div>
     
       
-        <p class="site-subtitle">Keeping It Simple & Stupid</p>
+        <p class="site-subtitle">Views are my own. And the Models. And the Controllers.</p>
       
     
     
@@ -392,11 +395,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.sahil.cc/post/2006/a-digital-photographers-heaven/">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2007/normal-forms/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
       <meta itemprop="image" content="/images/theme/next/avatar.png">
     </span>
 
@@ -412,7 +415,449 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/post/2006/a-digital-photographers-heaven/" class="post-title-link" itemprop="https://www.sahil.cc/page/7/index.html">A digital photographer's heaven</a>
+                <a href="/post/2007/normal-forms/" class="post-title-link" itemprop="https://doku.dev/page/7/index.html">Normal forms</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2007-06-04 10:47:00" itemprop="dateCreated datePublished" datetime="2007-06-04T10:47:00+05:30">2007-06-04</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-12-25 15:41:09" itemprop="dateModified" datetime="2018-12-25T15:41:09+05:30">2018-12-25</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/nitt/" itemprop="url" rel="index"><span itemprop="name">nitt</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/post/2007/normal-forms/#comments" itemprop="discussionUrl">
+                
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="post/2007/normal-forms/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Sitting here in Morgan Stanley, it’s hard to find free time. Things are always on the run.</p>
+<p>But one day, I did find free time, and did what I had wanted to do for a very long time - learn about Normal forms in RDBMS.</p>
+<p>Here is what I gathered from these websites :</p>
+<ul>
+<li><a href="http://www.blogger.com/post-create.g?blogID=27948672#%20http://www.serverwatch.com/tutorials/article.php/1549781" target="_blank" rel="noopener">http://www.serverwatch.com/tutorials/article.php/1549781</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Database_normalization" target="_blank" rel="noopener">http://en.wikipedia.org/wiki/Database_normalization</a></li>
+<li><a href="http://www.datamodel.org/NormalizationRules.html" target="_blank" rel="noopener">http://www.datamodel.org/NormalizationRules.html</a><h2 id="1st-Normal-Form"><a href="#1st-Normal-Form" class="headerlink" title="1st Normal Form:"></a><a href="http://en.wikipedia.org/wiki/First_normal_form" target="_blank" rel="noopener">1st Normal Form</a>:</h2></li>
+</ul>
+<ol>
+<li><p><strong>No multivalued attribute</strong></p>
+<p> |StudID|Course|<br> |—|—|<br> |12345|3100,3600,3900|<br> |54321|1300,2300,3400|<br> (Wrong)</p>
+</li>
+<li><p><strong>No repeating group</strong></p>
+<p> |StudID|Course1|Course2|Course3|<br> |—|—|—|—|<br> | 12345 | 3100 | 3600 | 3900 |<br> |54321 | 1300 | 2300 | 3400 |<br> (Wrong)</p>
+</li>
+<li><p><strong>Presence of atleast one unique identifier (addn of ID field)</strong></p>
+<p> | StudID|Course |<br> |—|—|<br> |12345 | 3100|<br> |12345 | 3600|<br> |54321 | 1300|<br> |54321 | 2300|<br> (Right)</p>
+</li>
+</ol>
+<p>There needs to be one composite key atleast. (One or more fields that can be used to distinguish every row uniquely). In the above example, if it was possible for the same student to take the same course twice, then we would have to add another uID field to bring the DB to the first normal form.</p>
+<h2 id="2nd-Normal-Form"><a href="#2nd-Normal-Form" class="headerlink" title="2nd Normal Form:"></a><a href="http://en.wikipedia.org/wiki/Second_normal_form" target="_blank" rel="noopener">2nd Normal Form</a>:</h2><p>The DB is in this if all non-prime attributes are completely dependent on a candidate key. (and not on a part of it).</p>
+<p>i.e. no repetition of key detail in one detail</p>
+<table>
+<thead>
+<tr>
+<th>StudID  CourseID</th>
+<th>StudNm  ProfID  ProfName</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>123456 310000</td>
+<td>April00 6789  David</td>
+</tr>
+<tr>
+<td>123456 410000</td>
+<td>April00 2345  David</td>
+</tr>
+<tr>
+<td>123456 210000</td>
+<td>April00 6789  David</td>
+</tr>
+</tbody>
+</table>
+<p>Candidate Key = StidID + CourseID</p>
+<p>But StudNm (student name) depends only on StudID (and not on StudID + CourseID)<br>Had prof been just a function of course, even that would have to be removed.<br>Hence it is not in 2nd NF.<br>The ProfName-ProfID dependency is removed in the 3rd NF (where no attribute can be dependent on a non-key attribute in that table).<br>No part key dependencies can exist in 2nd NF.</p>
+<p>None of the non-prime attributes of the table are functionally dependent on a part (proper subset) of a candidate key; in other words, all functional dependencies of non-prime attributes on candidate keys are full functional dependencies. For example, in an “Employees’ Skills” table whose attributes are Employee ID, Employee Address, and Skill, the combination of Employee ID and Skill uniquely identifies records within the table. Given that Employee Address depends on only one of those attributes – namely, Employee ID – the table is not in 2NF.</p>
+<ul>
+<li><strong>Candidate key</strong>: A <a href="http://en.wikipedia.org/wiki/Candidate_key" title="Candidate key" target="_blank" rel="noopener">candidate key</a> is a minimal superkey, that is, a superkey for which we can say that no proper subset of it is also a superkey. {Employee Id, Skill} would be a candidate key for the “Employees’ Skills” table.</li>
+<li><strong>uperkey</strong>: A <a href="http://en.wikipedia.org/wiki/Superkey" title="Superkey" target="_blank" rel="noopener">superkey</a> is an attribute or set of attributes that uniquely identifies rows within a table; in other words, two distinct rows are always guaranteed to have distinct superkeys. {Employee ID, Employee Address, Skill} would be a superkey for the “Employees’ Skills” table; {Employee ID, Skill} would also be a superkey.</li>
+<li><strong>Non-prime attribute</strong>: A non-prime attribute is an attribute that does not occur in any candidate key. Employee Address would be a non-prime attribute in the “Employees’ Skills” table.</li>
+<li><p><strong>Primary key</strong>: Most <a href="http://en.wikipedia.org/wiki/Database_management_system" title="Database management system" target="_blank" rel="noopener">DBMSs</a> require a table to be defined as having a single unique key, rather than a number of possible unique keys. A <a href="http://en.wikipedia.org/wiki/Primary_key" title="Primary key" target="_blank" rel="noopener">primary key</a> is a candidate key which the database designer has designated for this purpose.<br>Some thoughts :</p>
+</li>
+<li><p>In and after 2nd NF, all tables have only one candidate key. -&gt; FALSE</p>
+</li>
+<li>All candidate keys in a table map to each other one to one. -&gt; TRUE</li>
+<li><p>What normalization stage ensures that only one candidate key is remaining?</p>
+<ul>
+<li>None. Beacause <a href="http://en.wikipedia.org/wiki/Database_normalization" target="_blank" rel="noopener">normalization</a> aims at reducing data duplication and inconsistencies. Candidate keys in a table causes no redundency.</li>
+</ul>
+</li>
+<li><p>If a table in 1st NF has no composite candidate keys (candidate keys consisting of more then one attributes), then it is automatically in 2nd NF.</p>
+</li>
+</ul>
+<h2 id="3rd-Normal-Form"><a href="#3rd-Normal-Form" class="headerlink" title="3rd Normal Form:"></a><a href="http://en.wikipedia.org/wiki/Third_normal_form" target="_blank" rel="noopener">3rd Normal Form</a>:</h2><p>No non-transitive dependencies:<br>A non-transitive dependency is one in which an attribute is dependent on a non-key attribute in that table.<br>For example, in the ProfID example given above, to bring it to 3rd normal form, ProfName and ProfID would have to brought to a separate table. Because ProfName is a non-transitive dependency.</p>
+<ul>
+<li>In 2nd Normal form, all candidate keys become mutually independent. FALSE</li>
+<li>In 2nd Normal form, any candidate key is a candidate key (i.e. is a sufficient and necessary dependency) for all other attributes. FALSE - this happens in 3rd NF.</li>
+<li>In 3rd Normal form, non-prime attributes become dependent on a candidate key. TRUE</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2006/a-few-notes-on-exposure/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Sahil Ahuja">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
+      <meta itemprop="image" content="/images/theme/next/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Sahil's Journal">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/post/2006/a-few-notes-on-exposure/" class="post-title-link" itemprop="https://doku.dev/page/7/index.html">A few notes on exposure</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2006-12-15 03:13:00" itemprop="dateCreated datePublished" datetime="2006-12-15T03:13:00+05:30">2006-12-15</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-12-25 15:41:09" itemprop="dateModified" datetime="2018-12-25T15:41:09+05:30">2018-12-25</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/blog/" itemprop="url" rel="index"><span itemprop="name">blog</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/post/2006/a-few-notes-on-exposure/#comments" itemprop="discussionUrl">
+                
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="post/2006/a-few-notes-on-exposure/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><a href="http://en.wikipedia.org/wiki/Exposure_%28photography%29" target="_blank" rel="noopener">Exposure</a> refers to the amount of light falling onto the camera sensor. It is governed by two things :</p>
+<p><img src="/images/2006/DSC00732.jpg" alt="High Exposure"></p>
+<ol>
+<li>The  sensitivity of the medium the light is falling on (the ISO setting of your camers).</li>
+<li>The length of time for which the shutter the open and the apperture size (the brightness setting of your camera.<br>So, if you want a bright image, either increase the ISO sensitivity or increase the brightness. Increasing ISO sensitivity reduces image quality by increasing noise. Increasing brightness reduces the image quality by reducing the shutter speed.</li>
+</ol>
+<p>For a great special effect reduce the ISO sensitivity and increase the brightness to get the same effect you would get by moving the “levels” center controller in any image editting software to the left. This is because of the increased exposure time.<br><img src="/images/2006/DSC00441.jpg" alt="Reduced ISO"></p>
+<p>For a natural looking image reduce the brightness and increase the ISO sensitivity.<br><img src="/images/2006/DSC00440.jpg" alt="High ISO"></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2006/a-digital-photographers-heaven/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Sahil Ahuja">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
+      <meta itemprop="image" content="/images/theme/next/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Sahil's Journal">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/post/2006/a-digital-photographers-heaven/" class="post-title-link" itemprop="https://doku.dev/page/7/index.html">A digital photographer's heaven</a>
               
             
           </h1>
@@ -578,11 +1023,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.sahil.cc/post/2006/a-dream-come-true/">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2006/a-dream-come-true/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
       <meta itemprop="image" content="/images/theme/next/avatar.png">
     </span>
 
@@ -598,7 +1043,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/post/2006/a-dream-come-true/" class="post-title-link" itemprop="https://www.sahil.cc/page/7/index.html">A dream come true</a>
+                <a href="/post/2006/a-dream-come-true/" class="post-title-link" itemprop="https://doku.dev/page/7/index.html">A dream come true</a>
               
             
           </h1>
@@ -762,11 +1207,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.sahil.cc/post/2006/my-sister-my-inspiration/">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2006/my-sister-my-inspiration/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
       <meta itemprop="image" content="/images/theme/next/avatar.png">
     </span>
 
@@ -782,7 +1227,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/post/2006/my-sister-my-inspiration/" class="post-title-link" itemprop="https://www.sahil.cc/page/7/index.html">My sister, my inspiration</a>
+                <a href="/post/2006/my-sister-my-inspiration/" class="post-title-link" itemprop="https://doku.dev/page/7/index.html">My sister, my inspiration</a>
               
             
           </h1>
@@ -946,11 +1391,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.sahil.cc/post/2006/i-got-a-new-monitor/">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2006/i-got-a-new-monitor/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
       <meta itemprop="image" content="/images/theme/next/avatar.png">
     </span>
 
@@ -966,7 +1411,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/post/2006/i-got-a-new-monitor/" class="post-title-link" itemprop="https://www.sahil.cc/page/7/index.html">I got a new monitor!</a>
+                <a href="/post/2006/i-got-a-new-monitor/" class="post-title-link" itemprop="https://doku.dev/page/7/index.html">I got a new monitor!</a>
               
             
           </h1>
@@ -1132,11 +1577,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.sahil.cc/post/2006/using-digikam-for-managing-photos/">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2006/using-digikam-for-managing-photos/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
       <meta itemprop="image" content="/images/theme/next/avatar.png">
     </span>
 
@@ -1152,7 +1597,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/post/2006/using-digikam-for-managing-photos/" class="post-title-link" itemprop="https://www.sahil.cc/page/7/index.html">Using digiKam for managing photos.</a>
+                <a href="/post/2006/using-digikam-for-managing-photos/" class="post-title-link" itemprop="https://doku.dev/page/7/index.html">Using digiKam for managing photos.</a>
               
             
           </h1>
@@ -1319,11 +1764,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.sahil.cc/post/2006/coming-back-home/">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2006/coming-back-home/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
       <meta itemprop="image" content="/images/theme/next/avatar.png">
     </span>
 
@@ -1339,7 +1784,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/post/2006/coming-back-home/" class="post-title-link" itemprop="https://www.sahil.cc/page/7/index.html">Coming back home</a>
+                <a href="/post/2006/coming-back-home/" class="post-title-link" itemprop="https://doku.dev/page/7/index.html">Coming back home</a>
               
             
           </h1>
@@ -1504,11 +1949,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.sahil.cc/post/2006/things-i-have-done-in-the-past-6-months/">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2006/things-i-have-done-in-the-past-6-months/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
       <meta itemprop="image" content="/images/theme/next/avatar.png">
     </span>
 
@@ -1524,7 +1969,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/post/2006/things-i-have-done-in-the-past-6-months/" class="post-title-link" itemprop="https://www.sahil.cc/page/7/index.html">Things I have done in the past 6 months..</a>
+                <a href="/post/2006/things-i-have-done-in-the-past-6-months/" class="post-title-link" itemprop="https://doku.dev/page/7/index.html">Things I have done in the past 6 months..</a>
               
             
           </h1>
@@ -1692,11 +2137,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.sahil.cc/post/2006/file-sharing-on-lan/">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2006/file-sharing-on-lan/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
       <meta itemprop="image" content="/images/theme/next/avatar.png">
     </span>
 
@@ -1712,7 +2157,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/post/2006/file-sharing-on-lan/" class="post-title-link" itemprop="https://www.sahil.cc/page/7/index.html">File Sharing on LAN</a>
+                <a href="/post/2006/file-sharing-on-lan/" class="post-title-link" itemprop="https://doku.dev/page/7/index.html">File Sharing on LAN</a>
               
             
           </h1>
@@ -1871,438 +2316,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.sahil.cc/post/2006/its-so-easy-resetting-the-root-password-i-mean/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/theme/next/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Sahil's Journal">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/post/2006/its-so-easy-resetting-the-root-password-i-mean/" class="post-title-link" itemprop="https://www.sahil.cc/page/7/index.html">It's so easy!!! (Resetting the root password I mean)...</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2006-07-10 03:01:00" itemprop="dateCreated datePublished" datetime="2006-07-10T03:01:00+05:30">2006-07-10</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-12-25 15:41:09" itemprop="dateModified" datetime="2018-12-25T15:41:09+05:30">2018-12-25</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/blog/" itemprop="url" rel="index"><span itemprop="name">blog</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/post/2006/its-so-easy-resetting-the-root-password-i-mean/#comments" itemprop="discussionUrl">
-                
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="post/2006/its-so-easy-resetting-the-root-password-i-mean/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><span style="font-size:130%;">Look at this from  <a href="http://www.fedorafaq.org/basics/" target="_blank" rel="noopener">Fedora FAQ</a> -</span></p>
-<blockquote>
-<p><span style="font-size:85%;">Q:How do I reset my root password? </span></p>
-<p><div><span style="font-size:85%;">A: If you’ve forgotten your root password, and you want to change it, don’t worry!  It’s possible. You need to boot into what’s called “single-user  mode.” You must be <em>in front of the computer</em> to do this –  you <em>can not</em> do it remotely: </span></div></p>
-<ol>
-<li><span style="font-size:85%;">Using the instructions in the <a href="http://www.fedorafaq.org/basics/#runlevel" target="_blank" rel="noopener">runlevel question</a> (under the “While You Are Booting the      Computer” section), boot into runlevel 1.</span></li>
-<li><span style="font-size:85%;">Set the new root password with by typing: </span><span style="font-size:85%;">passwd</span></li>
-</ol>
-<p><span style="font-size:85%;">And then enter your new root password when asked.</span></p>
-<ol start="3">
-<li><span style="font-size:85%;">Reboot your machine, and you will now be able to log in as root with      the new password that you entered.</span></li>
-</ol>
-<p><br><span style="font-size:130%;">And here’s that runlevel question -</span><strong>
-</strong></p>
-<p><li><span style="font-size:78%;"><strong>While You Are Booting the Computer</strong>: </span></li></p>
-<ol>
-<li><span style="font-size:78%;">When you first start your computer, the GRUB screen (where you         choose your Operating System) appears. Select the Fedora that          you want to boot into, but press the <kbd>a</kbd> key instead of          pressing <kbd>Enter</kbd>.</span></li>
-<li><span style="font-size:78%;">You will see a line somewhat like the following: </span><span style="font-size:78%;">kernel /vmlinuz-2.6.9-1.667 ro            root=LABEL=/ acpi=on rhgb quiet</span></li>
-</ol>
-<p><span style="font-size:78%;">Add the number of your runlevel to the end of that line, and then           press <kbd>Enter</kbd>. For example, to boot into text-only mode,           the line would look like:</span></p>
-<p><span style="font-size:78%;">kernel /vmlinuz-2.6.9-1.667 ro           root=LABEL=/ acpi=on rhgb quiet 3</span></p>
-<p><span style="font-size:78%;">You will then boot into the new runlevel this time only.</span><br><span style="font-size:130%;">This just shows how easy it is hack into our systems unless we <a href="http://wiki.linuxquestions.org/wiki/Securing_GRUB" target="_blank" rel="noopener">secure our grub</a></span>!</p>
-</blockquote>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.sahil.cc/post/2006/programs-like-these-make-life-easy-fedora-frog/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/theme/next/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Sahil's Journal">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/post/2006/programs-like-these-make-life-easy-fedora-frog/" class="post-title-link" itemprop="https://www.sahil.cc/page/7/index.html">Programs like these make life easy - Fedora Frog</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2006-07-09 22:33:00" itemprop="dateCreated datePublished" datetime="2006-07-09T22:33:00+05:30">2006-07-09</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-12-25 15:41:09" itemprop="dateModified" datetime="2018-12-25T15:41:09+05:30">2018-12-25</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/blog/" itemprop="url" rel="index"><span itemprop="name">blog</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/post/2006/programs-like-these-make-life-easy-fedora-frog/#comments" itemprop="discussionUrl">
-                
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="post/2006/programs-like-these-make-life-easy-fedora-frog/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Man!!<br><span style="font-size:130%;">This really is great! Here is what the <a href="http://easylinux.info/wiki/Fedora_frog" target="_blank" rel="noopener">site</a> says -</span></p>
-<blockquote>
-<p>Fedora Frog is GUI install script that jumps your Fedora Core 5 to life in no time…  Fedora Frog supports 32 bit installations, some parts may work also on 64 bit installations.<br>This script installs <span style="font-style:italic;">most</span> of the stuff you will ever need to get things <span style="font-style:italic;">really working</span> in Fedora Core 5. <span style="font-weight:bold;">Here’s what it can do (Hold your breath!) -</span></p>
-</blockquote>
-<ul>
-<li>Install extra repositories [RPMForge]</li>
-<li>Install GUI frontend for yum [yumex]</li>
-<li>Install commonly needed multimedia codecs</li>
-<li>Install DVD playback capability</li>
-<li>Install Java JRE and its plugin for Firefox</li>
-<li>Install Macromedia Flash plugin for Firefox</li>
-<li>Install extra fonts (including msttcorefonts)</li>
-<li>Install graphics drivers for nVidia and ATI cards</li>
-<li>Install Gnome Configuration Editor</li>
-<li>Install numlockx to turn on NumLock on startup</li>
-<li>Set up Gnome to open System Monitor every time you push Alt-Ctrl-Del</li>
-<li>Disable CD blocking in CD-ROM</li>
-<li>Set up Nautilus to open new folders in the same window</li>
-<li>Install rar archiver</li>
-<li>Install Adobe PDF reader</li>
-<li>Install Gwenview and digiKam imageviewers</li>
-<li>Install XMMS (analog of Winamp)</li>
-<li>Install amaroK media player</li>
-<li>Install stream directory browser Streamtuner</li>
-<li>Install CD ripper Grip</li>
-<li>Install Xine, VLC, Mplayer multimedia players</li>
-<li>Install RealPlayer 10</li>
-<li>Install Skype</li>
-<li>Install Thunderbird e-mail client</li>
-<li>Install Liferea RSS reader</li>
-<li>Install Opera web browser</li>
-<li>Install CD/DVD burning utility K3b</li>
-<li>Install FTP utility gFTP</li>
-<li>Install File share utility DC++</li>
-<li>Install P2P BitTorrent client Azureus</li>
-<li>Install P2P eMule Client aMule</li>
-<li>Install P2P Gnutella Client LimeWire</li>
-<li>Install KDE Edutainment programms</li>
-<li>Install Photo-realistic nightsky renderer Stellarium</li>
-<li>Install Some additional games</li>
-<li>Install Alacarte Gnome menu editor</li>
-<li>Install Shortcut to browse files as root</li>
-<li>Install Some desktop backgrounds, icons, themes and screensavers</li>
-<li>Install fortune and make Gnome Fish-applet to use it</li>
-</ul>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -2342,7 +2355,7 @@
               <img class="site-author-image" itemprop="image" src="/images/theme/next/avatar.png" alt="Sahil Ahuja">
             
               <p class="site-author-name" itemprop="name">Sahil Ahuja</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">Keeping It Simple & Stupid</p>
           </div>
 
           
@@ -2352,7 +2365,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">107</span>
+                    <span class="site-state-item-count">109</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -2691,7 +2704,7 @@
                   </li>
                 
                   <li class="links-of-blogroll-item">
-                    <a href="https://medium.com/@sahilahuja" title="https://medium.com/@sahilahuja" rel="noopener" target="_blank">Medium</a>
+                    <a href="https://medium.com/@sahilahuja" title="https://medium.com/@sahilahuja" rel="noopener" target="_blank">Medium Posts</a>
                   </li>
                 
               </ul>
@@ -2727,7 +2740,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; 2008 – <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; 2008 – <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
@@ -2739,9 +2752,15 @@
 </div>
 
 
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
 
 
 
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v6.6.0</div>
 
 
 

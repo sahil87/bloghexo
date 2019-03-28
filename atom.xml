@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Sahil&#39;s Journal</title>
   
-  <subtitle>Keeping It Simple &amp; Stupid</subtitle>
+  <subtitle>Views are my own. And the Models. And the Controllers.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://www.sahil.cc/"/>
-  <updated>2018-12-25T10:52:01.429Z</updated>
-  <id>https://www.sahil.cc/</id>
+  <link href="https://doku.dev/"/>
+  <updated>2019-03-28T10:20:39.542Z</updated>
+  <id>https://doku.dev/</id>
   
   <author>
     <name>Sahil Ahuja</name>
@@ -17,34 +17,74 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Switching (back) from hugo to hexo</title>
-    <link href="https://www.sahil.cc/post/2018/Switching-back-from-hugo-to-hexo/"/>
-    <id>https://www.sahil.cc/post/2018/Switching-back-from-hugo-to-hexo/</id>
-    <published>2018-12-22T20:50:00.000Z</published>
-    <updated>2018-12-25T10:52:01.429Z</updated>
+    <title>H Laws</title>
+    <link href="https://doku.dev/post/2019/H-Laws/"/>
+    <id>https://doku.dev/post/2019/H-Laws/</id>
+    <published>2019-03-28T10:16:26.000Z</published>
+    <updated>2019-03-28T10:20:39.542Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;I has been really long since I blogged anything. The primary reason was that blogging and searching through the existing blog had become 
+        &lt;h2 id=&quot;H-Laws&quot;&gt;&lt;a href=&quot;#H-Laws&quot; class=&quot;headerlink&quot; title=&quot;H Laws&quot;&gt;&lt;/a&gt;H Laws&lt;/h2&gt;&lt;h4 id=&quot;Hofstadter’s-Law&quot;&gt;&lt;a href=&quot;#Hofstadter’s-Law&quot; cla
       
     
     </summary>
     
-      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+      <category term="blog" scheme="https://doku.dev/categories/blog/"/>
     
     
-      <category term="hexo" scheme="https://www.sahil.cc/tags/hexo/"/>
+  </entry>
+  
+  <entry>
+    <title>Do Main DEV</title>
+    <link href="https://doku.dev/post/2019/Do-Main-DEV/"/>
+    <id>https://doku.dev/post/2019/Do-Main-DEV/</id>
+    <published>2019-03-04T08:30:33.000Z</published>
+    <updated>2019-03-11T09:16:07.838Z</updated>
     
-      <category term="hugo" scheme="https://www.sahil.cc/tags/hugo/"/>
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Once-again-changing-domain&quot;&gt;&lt;a href=&quot;#Once-again-changing-domain&quot; class=&quot;headerlink&quot; title=&quot;Once again, changing domain&quot;&gt;&lt;/a&gt;Once ag
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Switching (back) from hugo to hexo</title>
+    <link href="https://doku.dev/post/2018/Switching-back-from-hugo-to-hexo/"/>
+    <id>https://doku.dev/post/2018/Switching-back-from-hugo-to-hexo/</id>
+    <published>2018-12-22T20:50:00.000Z</published>
+    <updated>2019-02-02T06:25:20.087Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;It has been really long since I blogged anything. The primary reason was that blogging and searching through the existing blog had become
+      
+    
+    </summary>
+    
+      <category term="blog" scheme="https://doku.dev/categories/blog/"/>
+    
+    
+      <category term="hexo" scheme="https://doku.dev/tags/hexo/"/>
+    
+      <category term="hugo" scheme="https://doku.dev/tags/hugo/"/>
     
   </entry>
   
   <entry>
     <title>Rooting One Plus One</title>
-    <link href="https://www.sahil.cc/post/2018/rooting-one-plus-one/"/>
-    <id>https://www.sahil.cc/post/2018/rooting-one-plus-one/</id>
+    <link href="https://doku.dev/post/2018/rooting-one-plus-one/"/>
+    <id>https://doku.dev/post/2018/rooting-one-plus-one/</id>
     <published>2018-02-15T03:33:39.000Z</published>
     <updated>2018-12-25T10:11:09.971Z</updated>
     
@@ -58,19 +98,19 @@
     
     </summary>
     
-      <category term="guide" scheme="https://www.sahil.cc/categories/guide/"/>
+      <category term="guide" scheme="https://doku.dev/categories/guide/"/>
     
     
-      <category term="root" scheme="https://www.sahil.cc/tags/root/"/>
+      <category term="root" scheme="https://doku.dev/tags/root/"/>
     
-      <category term="android" scheme="https://www.sahil.cc/tags/android/"/>
+      <category term="android" scheme="https://doku.dev/tags/android/"/>
     
   </entry>
   
   <entry>
     <title>Everything About Yaml And Invision</title>
-    <link href="https://www.sahil.cc/post/2018/everything-about-yaml/"/>
-    <id>https://www.sahil.cc/post/2018/everything-about-yaml/</id>
+    <link href="https://doku.dev/post/2018/everything-about-yaml/"/>
+    <id>https://doku.dev/post/2018/everything-about-yaml/</id>
     <published>2018-02-14T06:52:49.000Z</published>
     <updated>2018-12-25T10:11:09.971Z</updated>
     
@@ -83,19 +123,19 @@
     
     </summary>
     
-      <category term="guide" scheme="https://www.sahil.cc/categories/guide/"/>
+      <category term="guide" scheme="https://doku.dev/categories/guide/"/>
     
     
-      <category term="ubuntu" scheme="https://www.sahil.cc/tags/ubuntu/"/>
+      <category term="ubuntu" scheme="https://doku.dev/tags/ubuntu/"/>
     
-      <category term="yaml" scheme="https://www.sahil.cc/tags/yaml/"/>
+      <category term="yaml" scheme="https://doku.dev/tags/yaml/"/>
     
   </entry>
   
   <entry>
     <title>Does SELinux save you against rm -rf ?</title>
-    <link href="https://www.sahil.cc/post/2018/Does-SELinux-save-you-against-rm-rf/"/>
-    <id>https://www.sahil.cc/post/2018/Does-SELinux-save-you-against-rm-rf/</id>
+    <link href="https://doku.dev/post/2018/Does-SELinux-save-you-against-rm-rf/"/>
+    <id>https://doku.dev/post/2018/Does-SELinux-save-you-against-rm-rf/</id>
     <published>2018-02-12T02:18:46.000Z</published>
     <updated>2018-12-25T10:48:37.398Z</updated>
     
@@ -108,19 +148,19 @@
     
     </summary>
     
-      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+      <category term="blog" scheme="https://doku.dev/categories/blog/"/>
     
     
-      <category term="fedora" scheme="https://www.sahil.cc/tags/fedora/"/>
+      <category term="fedora" scheme="https://doku.dev/tags/fedora/"/>
     
-      <category term="selinux" scheme="https://www.sahil.cc/tags/selinux/"/>
+      <category term="selinux" scheme="https://doku.dev/tags/selinux/"/>
     
   </entry>
   
   <entry>
     <title>UEFI Secureboot Hell</title>
-    <link href="https://www.sahil.cc/post/2017/UEFI-secureboot-hell/"/>
-    <id>https://www.sahil.cc/post/2017/UEFI-secureboot-hell/</id>
+    <link href="https://doku.dev/post/2017/UEFI-secureboot-hell/"/>
+    <id>https://doku.dev/post/2017/UEFI-secureboot-hell/</id>
     <published>2017-12-06T12:54:46.000Z</published>
     <updated>2018-12-25T10:11:09.967Z</updated>
     
@@ -133,17 +173,17 @@
     
     </summary>
     
-      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+      <category term="blog" scheme="https://doku.dev/categories/blog/"/>
     
     
-      <category term="linuxmint" scheme="https://www.sahil.cc/tags/linuxmint/"/>
+      <category term="linuxmint" scheme="https://doku.dev/tags/linuxmint/"/>
     
   </entry>
   
   <entry>
     <title>Reacting With a Vengence</title>
-    <link href="https://www.sahil.cc/post/2017/reacting-with-a-vengence/"/>
-    <id>https://www.sahil.cc/post/2017/reacting-with-a-vengence/</id>
+    <link href="https://doku.dev/post/2017/reacting-with-a-vengence/"/>
+    <id>https://doku.dev/post/2017/reacting-with-a-vengence/</id>
     <published>2017-11-07T02:23:33.000Z</published>
     <updated>2018-12-25T10:11:09.967Z</updated>
     
@@ -153,19 +193,19 @@
     
     </summary>
     
-      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+      <category term="blog" scheme="https://doku.dev/categories/blog/"/>
     
     
-      <category term="react" scheme="https://www.sahil.cc/tags/react/"/>
+      <category term="react" scheme="https://doku.dev/tags/react/"/>
     
   </entry>
   
   <entry>
     <title>Tooling Update</title>
-    <link href="https://www.sahil.cc/post/2017/tooling-update/"/>
-    <id>https://www.sahil.cc/post/2017/tooling-update/</id>
+    <link href="https://doku.dev/post/2017/tooling-update/"/>
+    <id>https://doku.dev/post/2017/tooling-update/</id>
     <published>2017-10-24T09:56:23.000Z</published>
-    <updated>2018-12-25T10:11:09.967Z</updated>
+    <updated>2019-02-02T06:25:20.087Z</updated>
     
     <summary type="html">
     
@@ -176,21 +216,21 @@
     
     </summary>
     
-      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+      <category term="blog" scheme="https://doku.dev/categories/blog/"/>
     
     
-      <category term="react" scheme="https://www.sahil.cc/tags/react/"/>
+      <category term="react" scheme="https://doku.dev/tags/react/"/>
     
-      <category term="devops" scheme="https://www.sahil.cc/tags/devops/"/>
+      <category term="devops" scheme="https://doku.dev/tags/devops/"/>
     
-      <category term="mobx" scheme="https://www.sahil.cc/tags/mobx/"/>
+      <category term="mobx" scheme="https://doku.dev/tags/mobx/"/>
     
   </entry>
   
   <entry>
     <title>Researching PNG Resizing</title>
-    <link href="https://www.sahil.cc/post/2017/researching-png-resizing/"/>
-    <id>https://www.sahil.cc/post/2017/researching-png-resizing/</id>
+    <link href="https://doku.dev/post/2017/researching-png-resizing/"/>
+    <id>https://doku.dev/post/2017/researching-png-resizing/</id>
     <published>2017-10-24T02:33:58.000Z</published>
     <updated>2018-12-25T10:11:09.967Z</updated>
     
@@ -201,19 +241,19 @@
     
     </summary>
     
-      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+      <category term="blog" scheme="https://doku.dev/categories/blog/"/>
     
     
-      <category term="png" scheme="https://www.sahil.cc/tags/png/"/>
+      <category term="png" scheme="https://doku.dev/tags/png/"/>
     
-      <category term="todo" scheme="https://www.sahil.cc/tags/todo/"/>
+      <category term="todo" scheme="https://doku.dev/tags/todo/"/>
     
   </entry>
   
   <entry>
     <title>Switching From Hexo to Hugo</title>
-    <link href="https://www.sahil.cc/post/2017/switching-from-hexo-to-hugo/"/>
-    <id>https://www.sahil.cc/post/2017/switching-from-hexo-to-hugo/</id>
+    <link href="https://doku.dev/post/2017/switching-from-hexo-to-hugo/"/>
+    <id>https://doku.dev/post/2017/switching-from-hexo-to-hugo/</id>
     <published>2017-10-18T12:56:14.000Z</published>
     <updated>2018-12-25T10:11:09.967Z</updated>
     
@@ -223,19 +263,19 @@
     
     </summary>
     
-      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+      <category term="blog" scheme="https://doku.dev/categories/blog/"/>
     
     
-      <category term="test" scheme="https://www.sahil.cc/tags/test/"/>
+      <category term="test" scheme="https://doku.dev/tags/test/"/>
     
-      <category term="hugo" scheme="https://www.sahil.cc/tags/hugo/"/>
+      <category term="hugo" scheme="https://doku.dev/tags/hugo/"/>
     
   </entry>
   
   <entry>
     <title>Typing Unicode Characters in Ubuntu</title>
-    <link href="https://www.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/"/>
-    <id>https://www.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/</id>
+    <link href="https://doku.dev/post/2017/typing-unicode-characters-in-ubuntu/"/>
+    <id>https://doku.dev/post/2017/typing-unicode-characters-in-ubuntu/</id>
     <published>2017-08-27T12:20:16.000Z</published>
     <updated>2018-12-25T10:11:09.967Z</updated>
     
@@ -245,23 +285,23 @@
     
     </summary>
     
-      <category term="guide" scheme="https://www.sahil.cc/categories/guide/"/>
+      <category term="guide" scheme="https://doku.dev/categories/guide/"/>
     
     
-      <category term="ubuntu" scheme="https://www.sahil.cc/tags/ubuntu/"/>
+      <category term="ubuntu" scheme="https://doku.dev/tags/ubuntu/"/>
     
-      <category term="webstorm" scheme="https://www.sahil.cc/tags/webstorm/"/>
+      <category term="webstorm" scheme="https://doku.dev/tags/webstorm/"/>
     
-      <category term="unicode" scheme="https://www.sahil.cc/tags/unicode/"/>
+      <category term="unicode" scheme="https://doku.dev/tags/unicode/"/>
     
-      <category term="shortcuts" scheme="https://www.sahil.cc/tags/shortcuts/"/>
+      <category term="shortcuts" scheme="https://doku.dev/tags/shortcuts/"/>
     
   </entry>
   
   <entry>
     <title>Tracking hostname in Google Analytics</title>
-    <link href="https://www.sahil.cc/post/2017/Tracking-hostname-in-Google-Analytics/"/>
-    <id>https://www.sahil.cc/post/2017/Tracking-hostname-in-Google-Analytics/</id>
+    <link href="https://doku.dev/post/2017/Tracking-hostname-in-Google-Analytics/"/>
+    <id>https://doku.dev/post/2017/Tracking-hostname-in-Google-Analytics/</id>
     <published>2017-03-28T05:30:26.000Z</published>
     <updated>2018-12-25T10:11:09.967Z</updated>
     
@@ -271,21 +311,21 @@
     
     </summary>
     
-      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+      <category term="blog" scheme="https://doku.dev/categories/blog/"/>
     
     
-      <category term="google" scheme="https://www.sahil.cc/tags/google/"/>
+      <category term="google" scheme="https://doku.dev/tags/google/"/>
     
-      <category term="analytics" scheme="https://www.sahil.cc/tags/analytics/"/>
+      <category term="analytics" scheme="https://doku.dev/tags/analytics/"/>
     
-      <category term="tracking" scheme="https://www.sahil.cc/tags/tracking/"/>
+      <category term="tracking" scheme="https://doku.dev/tags/tracking/"/>
     
   </entry>
   
   <entry>
     <title>To Frame or Not to Frame</title>
-    <link href="https://www.sahil.cc/post/2017/To-Frame-or-Not-to-Frame/"/>
-    <id>https://www.sahil.cc/post/2017/To-Frame-or-Not-to-Frame/</id>
+    <link href="https://doku.dev/post/2017/To-Frame-or-Not-to-Frame/"/>
+    <id>https://doku.dev/post/2017/To-Frame-or-Not-to-Frame/</id>
     <published>2017-03-01T15:16:28.000Z</published>
     <updated>2018-12-25T10:11:09.967Z</updated>
     
@@ -298,19 +338,19 @@
     
     </summary>
     
-      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+      <category term="blog" scheme="https://doku.dev/categories/blog/"/>
     
     
-      <category term="js" scheme="https://www.sahil.cc/tags/js/"/>
+      <category term="js" scheme="https://doku.dev/tags/js/"/>
     
-      <category term="html" scheme="https://www.sahil.cc/tags/html/"/>
+      <category term="html" scheme="https://doku.dev/tags/html/"/>
     
   </entry>
   
   <entry>
     <title>This too happens</title>
-    <link href="https://www.sahil.cc/post/2017/This-too-happens/"/>
-    <id>https://www.sahil.cc/post/2017/This-too-happens/</id>
+    <link href="https://doku.dev/post/2017/This-too-happens/"/>
+    <id>https://doku.dev/post/2017/This-too-happens/</id>
     <published>2017-02-02T02:20:04.000Z</published>
     <updated>2018-12-25T10:11:09.967Z</updated>
     
@@ -324,15 +364,15 @@
     
     </summary>
     
-      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+      <category term="blog" scheme="https://doku.dev/categories/blog/"/>
     
     
   </entry>
   
   <entry>
     <title>The DevOps Docks</title>
-    <link href="https://www.sahil.cc/post/2017/The-DevOps-Docks/"/>
-    <id>https://www.sahil.cc/post/2017/The-DevOps-Docks/</id>
+    <link href="https://doku.dev/post/2017/The-DevOps-Docks/"/>
+    <id>https://doku.dev/post/2017/The-DevOps-Docks/</id>
     <published>2017-01-28T07:03:35.000Z</published>
     <updated>2018-12-25T10:11:09.967Z</updated>
     
@@ -342,17 +382,17 @@
     
     </summary>
     
-      <category term="guide" scheme="https://www.sahil.cc/categories/guide/"/>
+      <category term="guide" scheme="https://doku.dev/categories/guide/"/>
     
     
-      <category term="ansible" scheme="https://www.sahil.cc/tags/ansible/"/>
+      <category term="ansible" scheme="https://doku.dev/tags/ansible/"/>
     
   </entry>
   
   <entry>
     <title>J(u)S Rants</title>
-    <link href="https://www.sahil.cc/post/2017/jus-rants/"/>
-    <id>https://www.sahil.cc/post/2017/jus-rants/</id>
+    <link href="https://doku.dev/post/2017/jus-rants/"/>
+    <id>https://doku.dev/post/2017/jus-rants/</id>
     <published>2017-01-20T07:03:25.000Z</published>
     <updated>2018-12-25T10:11:09.967Z</updated>
     
@@ -365,21 +405,21 @@
     
     </summary>
     
-      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+      <category term="blog" scheme="https://doku.dev/categories/blog/"/>
     
     
-      <category term="rants" scheme="https://www.sahil.cc/tags/rants/"/>
+      <category term="rants" scheme="https://doku.dev/tags/rants/"/>
     
-      <category term="es6" scheme="https://www.sahil.cc/tags/es6/"/>
+      <category term="es6" scheme="https://doku.dev/tags/es6/"/>
     
-      <category term="js" scheme="https://www.sahil.cc/tags/js/"/>
+      <category term="js" scheme="https://doku.dev/tags/js/"/>
     
   </entry>
   
   <entry>
     <title>Github 2016 Report Card</title>
-    <link href="https://www.sahil.cc/post/2017/Github-2016-Report-Card/"/>
-    <id>https://www.sahil.cc/post/2017/Github-2016-Report-Card/</id>
+    <link href="https://doku.dev/post/2017/Github-2016-Report-Card/"/>
+    <id>https://doku.dev/post/2017/Github-2016-Report-Card/</id>
     <published>2017-01-07T07:03:08.000Z</published>
     <updated>2018-12-25T10:11:09.967Z</updated>
     
@@ -389,17 +429,17 @@
     
     </summary>
     
-      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+      <category term="blog" scheme="https://doku.dev/categories/blog/"/>
     
     
-      <category term="git" scheme="https://www.sahil.cc/tags/git/"/>
+      <category term="git" scheme="https://doku.dev/tags/git/"/>
     
   </entry>
   
   <entry>
     <title>Measuring the ripples - cross domain tracking</title>
-    <link href="https://www.sahil.cc/post/2016/Measuring-the-ripples-cross-domain-tracking/"/>
-    <id>https://www.sahil.cc/post/2016/Measuring-the-ripples-cross-domain-tracking/</id>
+    <link href="https://doku.dev/post/2016/Measuring-the-ripples-cross-domain-tracking/"/>
+    <id>https://doku.dev/post/2016/Measuring-the-ripples-cross-domain-tracking/</id>
     <published>2016-12-25T08:54:56.000Z</published>
     <updated>2018-12-25T10:11:09.967Z</updated>
     
@@ -412,17 +452,17 @@
     
     </summary>
     
-      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+      <category term="blog" scheme="https://doku.dev/categories/blog/"/>
     
     
-      <category term="analytics" scheme="https://www.sahil.cc/tags/analytics/"/>
+      <category term="analytics" scheme="https://doku.dev/tags/analytics/"/>
     
   </entry>
   
   <entry>
     <title>The Nodejs Toolbox (TNT)</title>
-    <link href="https://www.sahil.cc/post/2016/The-Nodejs-Toolbox-TNT/"/>
-    <id>https://www.sahil.cc/post/2016/The-Nodejs-Toolbox-TNT/</id>
+    <link href="https://doku.dev/post/2016/The-Nodejs-Toolbox-TNT/"/>
+    <id>https://doku.dev/post/2016/The-Nodejs-Toolbox-TNT/</id>
     <published>2016-12-19T20:18:40.000Z</published>
     <updated>2018-12-25T10:11:09.967Z</updated>
     
@@ -432,58 +472,14 @@
     
     </summary>
     
-      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
+      <category term="blog" scheme="https://doku.dev/categories/blog/"/>
     
     
-      <category term="node" scheme="https://www.sahil.cc/tags/node/"/>
+      <category term="node" scheme="https://doku.dev/tags/node/"/>
     
-      <category term="tools" scheme="https://www.sahil.cc/tags/tools/"/>
+      <category term="tools" scheme="https://doku.dev/tags/tools/"/>
     
-      <category term="es6" scheme="https://www.sahil.cc/tags/es6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Not funny one of every six times</title>
-    <link href="https://www.sahil.cc/post/2016/Not-funny-one-of-every-six-times/"/>
-    <id>https://www.sahil.cc/post/2016/Not-funny-one-of-every-six-times/</id>
-    <published>2016-12-17T08:57:54.000Z</published>
-    <updated>2018-12-25T10:11:09.967Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;A few things NOT to try at home.&lt;br&gt;
-    
-    </summary>
-    
-      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
-    
-    
-      <category term="bash" scheme="https://www.sahil.cc/tags/bash/"/>
-    
-      <category term="fun" scheme="https://www.sahil.cc/tags/fun/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>DNS redirection to URL through Route 53 and S3</title>
-    <link href="https://www.sahil.cc/post/2016/DNS-redirection-to-URL-through-Route-53-and-S3/"/>
-    <id>https://www.sahil.cc/post/2016/DNS-redirection-to-URL-through-Route-53-and-S3/</id>
-    <published>2016-12-16T22:03:51.000Z</published>
-    <updated>2018-12-25T10:11:09.967Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;I recently needed to redirect a DNS (like links.sportscafe.in) to a path (like &lt;a href=&quot;http://trello.com/abc)&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://trello.com/abc)&lt;/a&gt;. Here is what finally helped me: &lt;a href=&quot;http://stackoverflow.com/a/14289082/1233476&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://stackoverflow.com/a/14289082/1233476&lt;/a&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="blog" scheme="https://www.sahil.cc/categories/blog/"/>
-    
-    
-      <category term="aws" scheme="https://www.sahil.cc/tags/aws/"/>
-    
-      <category term="s3" scheme="https://www.sahil.cc/tags/s3/"/>
+      <category term="es6" scheme="https://doku.dev/tags/es6/"/>
     
   </entry>
   
