@@ -4,7 +4,7 @@
   <url>
     <loc>https://doku.dev/post/Adding-a-QR-Code-Scanner-to-your-Website/</loc>
     
-    <lastmod>2019-09-17T19:48:03.020Z</lastmod>
+    <lastmod>2019-09-17T19:51:40.316Z</lastmod>
     
   </url>
   
@@ -107,14 +107,14 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/i-got-a-new-monitor/</loc>
+    <loc>https://doku.dev/post/2006/here-is-a-way-to-search-great-things-through-google/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/here-is-a-way-to-search-great-things-through-google/</loc>
+    <loc>https://doku.dev/post/2006/i-got-a-new-monitor/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -135,13 +135,6 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/intro/</loc>
-    
-    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://doku.dev/post/2006/interfacing-with-c/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
@@ -149,7 +142,7 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/its-so-easy-resetting-the-root-password-i-mean/</loc>
+    <loc>https://doku.dev/post/2006/intro/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -163,7 +156,7 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/finalizing-the-panel/</loc>
+    <loc>https://doku.dev/post/2006/its-so-easy-resetting-the-root-password-i-mean/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -177,7 +170,7 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/mobiles-with-fedora-core-5/</loc>
+    <loc>https://doku.dev/post/2006/designing-the-panel/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -191,7 +184,7 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/plan-b/</loc>
+    <loc>https://doku.dev/post/2006/mobiles-with-fedora-core-5/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -205,14 +198,14 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/planning-ahead/</loc>
+    <loc>https://doku.dev/post/2006/plan-b/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/a-dream-come-true/</loc>
+    <loc>https://doku.dev/post/2006/planning-ahead/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -226,7 +219,7 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2008/mail-with-postfix-and-ldap/</loc>
+    <loc>https://doku.dev/post/2006/a-few-notes-on-exposure/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -240,6 +233,13 @@
   </url>
   
   <url>
+    <loc>https://doku.dev/post/2008/mail-with-postfix-and-ldap/</loc>
+    
+    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://doku.dev/post/2006/project-at-iit-bombay/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
@@ -247,14 +247,14 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/project-complete/</loc>
+    <loc>https://doku.dev/post/2006/project-going-fast-ahead/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/project-going-fast-ahead/</loc>
+    <loc>https://doku.dev/post/2006/project-complete/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -338,7 +338,7 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/a-glimpse-of-whats-about-to-come/</loc>
+    <loc>https://doku.dev/post/2006/a-dream-come-true/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -436,7 +436,7 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/designing-the-panel/</loc>
+    <loc>https://doku.dev/post/2006/file-sharing-on-lan/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -492,7 +492,7 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/a-few-notes-on-exposure/</loc>
+    <loc>https://doku.dev/post/2006/a-glimpse-of-whats-about-to-come/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -555,14 +555,21 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2016/Intel-Edison-Arduino-project/</loc>
+    <loc>https://doku.dev/post/2006/day-7/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/day-7/</loc>
+    <loc>https://doku.dev/post/2016/Hello-World/</loc>
+    
+    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://doku.dev/post/2016/Intel-Edison-Arduino-project/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -577,13 +584,6 @@
   
   <url>
     <loc>https://doku.dev/post/2016/JWT-JSON-Web-Token-Passing-on-the-secret-without-letting-the-neighours-know/</loc>
-    
-    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://doku.dev/post/2016/Hello-World/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -660,14 +660,14 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2017/jus-rants/</loc>
+    <loc>https://doku.dev/post/2017/UEFI-secureboot-hell/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2017/UEFI-secureboot-hell/</loc>
+    <loc>https://doku.dev/post/2017/jus-rants/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -695,7 +695,7 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/aamchi-mumbai-kelon-ka-din/</loc>
+    <loc>https://doku.dev/post/2006/coming-back-home/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -709,13 +709,6 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/coming-back-home/</loc>
-    
-    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://doku.dev/post/2006/blog-for-tracking-development%20of%20pcbo/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
@@ -723,14 +716,14 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/going-ahead/</loc>
+    <loc>https://doku.dev/post/2006/aamchi-mumbai-kelon-ka-din/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/file-sharing-on-lan/</loc>
+    <loc>https://doku.dev/post/2006/finalizing-the-panel/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -738,6 +731,13 @@
   
   <url>
     <loc>https://doku.dev/post/2006/gpl-hijacking/</loc>
+    
+    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://doku.dev/post/2006/going-ahead/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
