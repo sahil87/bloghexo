@@ -4,6 +4,13 @@
     <title><![CDATA[Adding a QR Code Scanner to your Website]]></title>
     <url>%2Fpost%2FAdding-a-QR-Code-Scanner-to-your-Website%2F</url>
     <content type="text"><![CDATA[Barcode and QR code have become common in our day to day shopping and searching experience. Almost everyone has a QR Code Scanner installed in their phones a separate app or as a part of the camera. You might want to add QRCode scanning as a part of your website. This simple addition opens up a world of possiblities - potentially improving the user experience of your users by leaps and bounds. Below you will learn how to add a simple QR Code Scanner to your Website. You don’t need a native app to be able to scan QR codes - simple javascript can do the trick. We will use a npm package react-qr-reader. Add the following code to your javascript to get the QR Code scanner working: 1234567891011121314151617181920212223242526272829303132import React, &#123; Component &#125; from 'react'import QrReader from 'react-qr-reader'class Test extends Component &#123; state = &#123; result: 'No result' &#125; handleScan = data =&gt; &#123; if (data) &#123; this.setState(&#123; result: data &#125;) &#125; &#125; handleError = err =&gt; &#123; console.error(err) &#125; render() &#123; return ( &lt;div&gt; &lt;QrReader delay=&#123;300&#125; onError=&#123;this.handleError&#125; onScan=&#123;this.handleScan&#125; style=&#123;&#123; width: '100%' &#125;&#125; /&gt; &lt;p&gt;&#123;this.state.result&#125;&lt;/p&gt; &lt;/div&gt; ) &#125;&#125; After this, add the component &lt;Test&gt; to the page where you want the QR Code scanner and handle the data scanned in the handleScan function in the code above. Scanning Website URLs and Opening them on an iframeThis technique can also be used to scan a URL and open the same on an ifram rendered as a react component. There are a few things to remember in this approach: Most website today have X-Frame-Options header set to SAMEORIGIN. This blocks the website from loading in an iframe. You can only open URLs that have the X-Frame-Options header is set to ALLOW-FROM https://&lt;your-website-url&gt; OR Website from the same domain name as your iframe. Here is a MDN article explaining the same. In case you aren’t able to load the website in your frame, and you have access to the website’s code, try adding the X-Frame-Options header to fix the issue.]]></content>
+      <categories>
+        <category>guide</category>
+      </categories>
+      <tags>
+        <tag>react</tag>
+        <tag>web</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[H Laws]]></title>
@@ -304,8 +311,8 @@
         <category>review</category>
       </categories>
       <tags>
-        <tag>rants</tag>
         <tag>web</tag>
+        <tag>rants</tag>
         <tag>authentication</tag>
         <tag>express</tag>
       </tags>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://doku.dev/"/>
-  <updated>2019-09-17T19:46:28.461Z</updated>
+  <updated>2019-09-17T19:48:03.020Z</updated>
   <id>https://doku.dev/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>Adding a QR Code Scanner to your Website</title>
     <link href="https://doku.dev/post/Adding-a-QR-Code-Scanner-to-your-Website/"/>
     <id>https://doku.dev/post/Adding-a-QR-Code-Scanner-to-your-Website/</id>
-    <published>2019-09-17T19:22:09.000Z</published>
-    <updated>2019-09-17T19:46:28.461Z</updated>
+    <published>2019-09-17T19:22:00.000Z</published>
+    <updated>2019-09-17T19:48:03.020Z</updated>
     
     <summary type="html">
     
@@ -32,6 +32,12 @@
     
     </summary>
     
+      <category term="guide" scheme="https://doku.dev/categories/guide/"/>
+    
+    
+      <category term="react" scheme="https://doku.dev/tags/react/"/>
+    
+      <category term="web" scheme="https://doku.dev/tags/web/"/>
     
   </entry>
   
