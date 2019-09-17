@@ -395,6 +395,193 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2008/public-html-web-server-without-mod-userdir/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Sahil Ahuja">
+      <meta itemprop="description" content="Keeping It Simple & Stupid">
+      <meta itemprop="image" content="/images/theme/next/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Sahil's Journal">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/post/2008/public-html-web-server-without-mod-userdir/" class="post-title-link" itemprop="https://doku.dev/page/6/index.html">public_html web server - without mod_userdir</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2008-05-03 08:59:43" itemprop="dateCreated datePublished" datetime="2008-05-03T08:59:43+05:30">2008-05-03</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-12-25 15:41:09" itemprop="dateModified" datetime="2018-12-25T15:41:09+05:30">2018-12-25</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/nitt/" itemprop="url" rel="index"><span itemprop="name">nitt</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/post/2008/public-html-web-server-without-mod-userdir/#comments" itemprop="discussionUrl">
+                
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="post/2008/public-html-web-server-without-mod-userdir/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Hell, what does the title mean??</p>
+<p>It means this :</p>
+<p>Allow people to put files in the public_html folder in their home directories and allow it to be seen through the web server of that server in this format : <a href="http://servername/~username/hisorherfiles" target="_blank" rel="noopener">http://servername/~username/hisorherfiles</a></p>
+<p>Most people use mod_userdir to allow ~username directories in their webservers. However, there is simple rewrite rule workaround that eliminates the need for mod_userdir.  I needed this because we had the home directories on the server, but the users had no login accounts on the server and they needed their public_html to work.</p>
+<p>Here is how it goes :</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">#First, disable the default thing : </span><br><span class="line">&lt;IfModule mod_userdir.c&gt;</span><br><span class="line">    UserDir disable</span><br><span class="line">&lt;/IfModule&gt;</span><br><span class="line">#Then the rewrite rule</span><br><span class="line">&lt;/pre&gt;</span><br><span class="line">&lt;pre&gt;#To prevent access to files ~something.html and #something.html#</span><br><span class="line">&lt;Files ~ &quot;.*(~|#)$&quot;&gt;</span><br><span class="line">    	   Order allow,deny</span><br><span class="line">    	   Deny from all</span><br><span class="line">&lt;/Files&gt;</span><br><span class="line">#To show public_html access</span><br><span class="line">    RewriteEngine On</span><br><span class="line">    RewriteCond %&#123;REQUEST_URI&#125;	^/~\w+/.*$</span><br><span class="line">    RewriteRule /~(\w+)/(.*)	/webteam/$1/public_html/$2</span><br><span class="line">    RewriteCond %&#123;REQUEST_URI&#125;	^/~\w+$</span><br><span class="line">    RewriteRule /~(\w+)		/webteam/$1/public_html/</span><br><span class="line">#To enable .htaccess rules in public_html</span><br><span class="line">&lt;Directory /webteam/*/public_html&gt;</span><br><span class="line">    AllowOverride All</span><br><span class="line">&lt;/Directory&gt;</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2008/mail-with-postfix-and-ldap/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
@@ -2176,196 +2363,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://doku.dev/post/2007/stereoscopy/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Sahil Ahuja">
-      <meta itemprop="description" content="Keeping It Simple & Stupid">
-      <meta itemprop="image" content="/images/theme/next/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Sahil's Journal">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/post/2007/stereoscopy/" class="post-title-link" itemprop="https://doku.dev/page/6/index.html">Stereoscopy</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2007-06-06 22:21:00" itemprop="dateCreated datePublished" datetime="2007-06-06T22:21:00+05:30">2007-06-06</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-12-25 15:41:09" itemprop="dateModified" datetime="2018-12-25T15:41:09+05:30">2018-12-25</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/nitt/" itemprop="url" rel="index"><span itemprop="name">nitt</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/post/2007/stereoscopy/#comments" itemprop="discussionUrl">
-                
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="post/2007/stereoscopy/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>Today is a great day!!</p>
-<p>For the first time I was able to cross view. And only today I found out the type of stereograms I used to play with were parallel viewing. To find the difference between them go <a href="http://phillips.personal.nccu.edu.tw/3d/3-D.html" target="_blank" rel="noopener">here</a> or <a href="http://www.angelfire.com/ca/erker/freeview.html" target="_blank" rel="noopener">here</a>. (Gosh! <a href="http://en.wikipedia.org/" target="_blank" rel="noopener">wikipedia</a> articles for cross view and parallel view don’t exist. I could create one someday!)<br>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/post/2007/stereoscopy/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-         
-          <!--/noindex-->
-        
-      
-    </p></div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -2415,7 +2412,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">109</span>
+                    <span class="site-state-item-count">110</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>

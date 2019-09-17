@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://doku.dev/post/Adding-a-QR-Code-Scanner-to-your-Website/</loc>
+    
+    <lastmod>2019-09-17T19:46:28.461Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://doku.dev/post/2019/H-Laws/</loc>
     
     <lastmod>2019-03-28T10:20:39.542Z</lastmod>
@@ -23,6 +30,13 @@
   </url>
   
   <url>
+    <loc>https://doku.dev/post/2018/Switching-back-from-hugo-to-hexo/</loc>
+    
+    <lastmod>2019-02-02T06:25:20.087Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://doku.dev/post/2017/tooling-update/</loc>
     
     <lastmod>2019-02-02T06:25:20.087Z</lastmod>
@@ -31,13 +45,6 @@
   
   <url>
     <loc>https://doku.dev/post/2016/Good-Git/</loc>
-    
-    <lastmod>2019-02-02T06:25:20.087Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://doku.dev/post/2018/Switching-back-from-hugo-to-hexo/</loc>
     
     <lastmod>2019-02-02T06:25:20.087Z</lastmod>
     
@@ -86,14 +93,7 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/file-sharing-on-lan/</loc>
-    
-    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://doku.dev/post/2006/i-got-a-new-monitor/</loc>
+    <loc>https://doku.dev/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -107,21 +107,7 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/iit-b-project/</loc>
-    
-    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://doku.dev/post/2006/here-is-a-way-to-search-great-things-through-google/</loc>
-    
-    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://doku.dev/post/2006/intro/</loc>
+    <loc>https://doku.dev/post/2006/i-got-a-new-monitor/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -142,7 +128,14 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/a-digital-photographers-heaven/</loc>
+    <loc>https://doku.dev/post/2006/intro/</loc>
+    
+    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://doku.dev/post/2006/iit-b-project/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -156,13 +149,6 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/last-row-of-the-sun-lab/</loc>
-    
-    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://doku.dev/post/2006/java-with-mysql/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
@@ -170,14 +156,14 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/mobiles-with-fedora-core-5/</loc>
+    <loc>https://doku.dev/post/2006/a-digital-photographers-heaven/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/plan-b/</loc>
+    <loc>https://doku.dev/post/2006/last-row-of-the-sun-lab/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -191,7 +177,21 @@
   </url>
   
   <url>
+    <loc>https://doku.dev/post/2006/mobiles-with-fedora-core-5/</loc>
+    
+    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://doku.dev/post/2006/my-sister-my-inspiration/</loc>
+    
+    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://doku.dev/post/2006/plan-b/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -205,13 +205,6 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/a-glimpse-of-whats-about-to-come/</loc>
-    
-    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://doku.dev/post/2006/playing-around/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
@@ -219,14 +212,14 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2008/mail-with-postfix-and-ldap/</loc>
+    <loc>https://doku.dev/post/2006/a-glimpse-of-whats-about-to-come/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/project-at-iit-bombay/</loc>
+    <loc>https://doku.dev/post/2006/aamchi-mumbai-kelon-ka-din/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -240,56 +233,14 @@
   </url>
   
   <url>
+    <loc>https://doku.dev/post/2006/project-at-iit-bombay/</loc>
+    
+    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://doku.dev/post/2006/project-complete/</loc>
-    
-    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://doku.dev/post/2006/relaxing/</loc>
-    
-    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://doku.dev/post/2006/started-report/</loc>
-    
-    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://doku.dev/post/2006/report-presentation/</loc>
-    
-    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://doku.dev/post/2006/stuck/</loc>
-    
-    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://doku.dev/post/2006/starting-work/</loc>
-    
-    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://doku.dev/post/2006/things-i-have-done-in-the-past-6-months/</loc>
-    
-    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://doku.dev/post/2006/surging-ahead/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -303,14 +254,35 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2007/a-tryst-with-a-first-year/</loc>
+    <loc>https://doku.dev/post/2006/report-presentation/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/tomcat-started/</loc>
+    <loc>https://doku.dev/post/2006/relaxing/</loc>
+    
+    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://doku.dev/post/2006/starting-work/</loc>
+    
+    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://doku.dev/post/2006/stuck/</loc>
+    
+    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://doku.dev/post/2006/things-i-have-done-in-the-past-6-months/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -324,6 +296,20 @@
   </url>
   
   <url>
+    <loc>https://doku.dev/post/2006/trip-to-pune/</loc>
+    
+    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://doku.dev/post/2006/tomcat-started/</loc>
+    
+    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://doku.dev/post/2006/using-digikam-for-managing-photos/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
@@ -331,7 +317,14 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/trip-to-pune/</loc>
+    <loc>https://doku.dev/post/2006/coming-back-home/</loc>
+    
+    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://doku.dev/post/2006/surging-ahead/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -345,14 +338,14 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2007/normal-forms/</loc>
+    <loc>https://doku.dev/post/2007/stereoscopy/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2007/stereoscopy/</loc>
+    <loc>https://doku.dev/post/2007/trip-to-goa/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -373,7 +366,7 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2007/trip-to-goa/</loc>
+    <loc>https://doku.dev/post/2007/normal-forms/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -401,7 +394,7 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/a-dream-come-true/</loc>
+    <loc>https://doku.dev/post/2008/final-report-and-files/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -415,7 +408,7 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</loc>
+    <loc>https://doku.dev/post/2006/a-dream-come-true/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -450,14 +443,14 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2008/t-shirt-quotes/</loc>
+    <loc>https://doku.dev/post/2008/talk-about-punctuality/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2008/talk-about-punctuality/</loc>
+    <loc>https://doku.dev/post/2008/t-shirt-quotes/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -485,14 +478,21 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/a-few-notes-on-exposure/</loc>
+    <loc>https://doku.dev/post/2009/creating-a-super-pendrive/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2009/creating-a-super-pendrive/</loc>
+    <loc>https://doku.dev/post/2008/mail-with-postfix-and-ldap/</loc>
+    
+    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://doku.dev/post/2006/started-report/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -506,7 +506,7 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</loc>
+    <loc>https://doku.dev/post/2010/the-point-of-living/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -520,7 +520,7 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2010/the-point-of-living/</loc>
+    <loc>https://doku.dev/post/2010/bangalore-international-airport-shuttle-service-timings-and-route/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -534,21 +534,14 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2010/bangalore-international-airport-shuttle-service-timings-and-route/</loc>
+    <loc>https://doku.dev/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2016/DNS-redirection-to-URL-through-Route-53-and-S3/</loc>
-    
-    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://doku.dev/post/2006/coming-back-home/</loc>
+    <loc>https://doku.dev/post/2006/a-few-notes-on-exposure/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -556,6 +549,13 @@
   
   <url>
     <loc>https://doku.dev/post/2016/Hello-World/</loc>
+    
+    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://doku.dev/post/2016/DNS-redirection-to-URL-through-Route-53-and-S3/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -590,13 +590,6 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2016/Not-funny-one-of-every-six-times/</loc>
-    
-    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://doku.dev/post/2016/Measuring-the-ripples-cross-domain-tracking/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
@@ -604,14 +597,14 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2016/Rube-Goldberg-Machine-Gradle-Setup/</loc>
+    <loc>https://doku.dev/post/2016/Not-funny-one-of-every-six-times/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2017/Github-2016-Report-Card/</loc>
+    <loc>https://doku.dev/post/2016/Rube-Goldberg-Machine-Gradle-Setup/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -626,6 +619,13 @@
   
   <url>
     <loc>https://doku.dev/post/2017/The-DevOps-Docks/</loc>
+    
+    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://doku.dev/post/2017/Github-2016-Report-Card/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -660,14 +660,14 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2017/jus-rants/</loc>
+    <loc>https://doku.dev/post/2017/reacting-with-a-vengence/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2017/reacting-with-a-vengence/</loc>
+    <loc>https://doku.dev/post/2017/jus-rants/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -688,7 +688,7 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/day-7/</loc>
+    <loc>https://doku.dev/post/2006/designing-the-panel/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -702,6 +702,13 @@
   </url>
   
   <url>
+    <loc>https://doku.dev/post/2006/file-sharing-on-lan/</loc>
+    
+    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://doku.dev/post/2006/finalizing-the-panel/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
@@ -709,14 +716,7 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2006/aamchi-mumbai-kelon-ka-din/</loc>
-    
-    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://doku.dev/post/2006/designing-the-panel/</loc>
+    <loc>https://doku.dev/post/2006/day-7/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
@@ -737,7 +737,14 @@
   </url>
   
   <url>
-    <loc>https://doku.dev/post/2008/final-report-and-files/</loc>
+    <loc>https://doku.dev/post/2006/here-is-a-way-to-search-great-things-through-google/</loc>
+    
+    <lastmod>2018-12-25T10:11:09.967Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://doku.dev/post/2007/a-tryst-with-a-first-year/</loc>
     
     <lastmod>2018-12-25T10:11:09.967Z</lastmod>
     
