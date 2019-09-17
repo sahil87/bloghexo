@@ -8,7 +8,7 @@ categories:
   - guide
 date: 2019-09-18 00:52:00
 ---
-Barcode and QR code have become common in our day to day shopping and searching experience. Almost everyone has a QR Code Scanner installed in their phones a separate app or as a part of the camera.
+Barcode and QR code have become common in our day to day shopping and searching experience. Almost everyone has a QR Code Scanner installed in their phones as separate app or as a part of the camera.
 
 You might want to add QRCode scanning as a part of your website. This simple addition opens up a world of possiblities - potentially improving the user experience of your users by leaps and bounds. Below you will learn how to add a simple QR Code Scanner to your Website.
 
@@ -53,7 +53,7 @@ After this, add the component `<Test>` to the page where you want the QR Code sc
 
 ### Scanning Website URLs and Opening them on an iframe
 
-This technique can also be used to scan a URL and open the same on an ifram rendered as a react component. There are a few things to remember in this approach:
+This technique can also be used to scan a URL and open it in a iframe rendered as a react component. There are a few things to remember in this approach:
 1. Most website today have `X-Frame-Options` header set to `SAMEORIGIN`. This blocks the website from loading in an iframe. You can only open URLs that have the `X-Frame-Options` header is set to `ALLOW-FROM https://<your-website-url>`
 1. OR Website from the same domain name as your iframe. [Here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options) is a MDN article explaining the same.
 
