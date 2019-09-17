@@ -1,6 +1,12 @@
 title: Adding a QR Code Scanner to your Website
 author: Sahil Ahuja
-date: 2019-09-18 00:52:09
+tags:
+  - react
+  - ''
+  - web
+categories:
+  - guide
+date: 2019-09-18 00:52:00
 ---
 Barcode and QR code have become common in our day to day shopping and searching experience. Almost everyone has a QR Code Scanner installed in their phones a separate app or as a part of the camera.
 
